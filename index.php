@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MEDAC IGUAL</title>
-    <link rel="stylesheet" href="app.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
@@ -15,8 +14,10 @@
 <?php require('./containers/navbar/navbar.css')?>
 <?php require('./containers/header/header.css')?>
 <?php require('./containers/main/main.css')?>
+<?php require('./containers/gallery/gallery.css')?>
 <?php require('./containers/form/form.css')?>
 <?php require('./containers/footer/footer.css')?>
+<?php require('app.css')?>
 </style>
 
 
@@ -27,6 +28,7 @@
 <?php require('./containers/navbar/navbar.php')?>
 <?php require('./containers/header/header.php')?>
 <?php require('./containers/main/main.php')?>
+<?php require('./containers/gallery/gallery.php')?>
 <?php require('./containers/form/form.php')?>
 <?php require('./containers/footer/footer.php')?>
 
