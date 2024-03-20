@@ -1,7 +1,29 @@
 .navbar-light .navbar-nav .nav-link {
-    color: #000;
+    cursor: pointer;
+    color: var(--primary-600);
+    font-size: 1.1rem;
+  font-weight: 600;
+
   }
+  .navbar-light .navbar-nav .nav-link:hover {
+    cursor: pointer;
+    color: var(--principal);
+    text-decoration: underline;
+  }
+
+nav {
+  background-color: var(--secondary);
+}
 
   #inicioSesionBoton {
     background-color: var(--acento);
+    padding: 0.65rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  #inicioSesionBoton:hover {
+    background-color: var(--acento-hover);
+    color: white;
   }
