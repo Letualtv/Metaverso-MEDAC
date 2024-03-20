@@ -9,8 +9,20 @@
 </head>
 <body>
 
+<!-- ENLACE ESTILOS -->
+
+<style>
+<?php require('./containers/navbar/navbar.css')?>
+<?php require('./containers/header/header.css')?>
+<?php require('./containers/main/main.css')?>
+<?php require('./containers/form/form.css')?>
+<?php require('./containers/footer/footer.css')?>
+</style>
 
 
+
+
+<!-- ENLACE COMPONENTES -->
 
 <?php require('./containers/navbar/navbar.php')?>
 <?php require('./containers/header/header.php')?>

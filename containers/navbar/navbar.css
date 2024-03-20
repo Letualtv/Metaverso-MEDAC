@@ -1,0 +1,7 @@
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+  }
+
+  #inicioSesionBoton {
+    background-color: var(--acento);
+  }
