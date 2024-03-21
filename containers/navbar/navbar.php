@@ -7,18 +7,18 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg fixed-top bg-light navbar-light">
 
-  <div class="container">
-    <a class="navbar-brand" href="#"><img src="assets\logo-vector\MEDAC_imagotipo_horiz_azul_RGB.svg" alt="Logotipo de MEDAC" draggable="false" height="45" /></a>
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="assets\logo-fundacion\FUNDACION_MEDAC_imagotipo_horizontal_azul_RGB.svg" alt="Logotipo de MEDAC" draggable="false" height="65" /></a>
 
-    <button id="btnHamburger" class="navbar-toggler me-3"  type="button" data-bs-toggle="collapse" data-bs-target="#n_bar" aria-controls="n_bar" aria-expanded="false" aria-label="Toggle navigation">
+    <button id="btnHamburger" class="navbar-toggler me-3 py-2" type="button" data-bs-toggle="collapse" data-bs-target="#n_bar" aria-controls="n_bar" aria-expanded="false" aria-label="Toggle navigation">
 
-      <i id="iHamburger" class="fa-solid fa-bars-staggered"></i>
+      <i onclick="changeI(this)" id="iHamburger" class="fa-solid fa-bars  fa-lg"></i>
     </button>
 
 
     <div class="collapse navbar-collapse" id="n_bar">
       <ul class="navbar-nav ms-auto align-items-left">
-        <li class="nav-item">
+        <li class="nav-item ">
           <a class="nav-link mx-3" href="#!">Inicio</a>
         </li>
         <li class="nav-item">
@@ -30,10 +30,20 @@
         <li class="nav-item">
           <a class="nav-link mx-3" href="#!">Contacto</a>
         </li>
-        <li class="nav-item ms-3">
+        <!--
+          <li class="nav-item ms-3">
           <a id="inicioSesionBoton" class="btn badge rounded-pill" href="#!">Iniciar sesión</a>
-        </li>
+        </li> 
+      -->
       </ul>
     </div>
   </div>
 </nav>
+
+
+<!-- Script cambio icono menu hamburger -->
+<script>
+  function changeI(x) {
+    x.classList.toggle("fa-bars-staggered");
+  }
+</script>
