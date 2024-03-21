@@ -5,3 +5,10 @@
 <link rel="stylesheet" href="header.css">
 
 <!-- Header -->
+
+<div class="container">
+
+    <img src="assets\pic-waitingroom.PNG" alt="Hospital lobby" class="img-fluid" />
+
+</div>
+
