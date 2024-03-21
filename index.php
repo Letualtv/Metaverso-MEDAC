@@ -15,7 +15,6 @@
 
 <style>
 <?php require('./containers/navbar/navbar.css')?>
-<?php require('./containers/header/header.css')?>
 <?php require('./containers/main/main.css')?>
 <?php require('./containers/gallery/gallery.css')?>
 <?php require('./containers/form/form.css')?>
@@ -29,7 +28,6 @@
 <!-- ENLACE COMPONENTES -->
 
 <?php require('./containers/navbar/navbar.php')?>
-<?php require('./containers/header/header.php')?>
 <?php require('./containers/main/main.php')?>
 <?php require('./containers/gallery/gallery.php')?>
 <?php require('./containers/form/form.php')?>

@@ -5,3 +5,12 @@
 <link rel="stylesheet" href="main.css">
 
 <!-- main -->
+
+<!-- Assambly image -->
+<div class="container-fluid bg-personal" id="index">           
+    <div class="text-center" id="tittle">
+        <h1>Metaverso Medac</h1>
+    </div>
+</div>
+
+
