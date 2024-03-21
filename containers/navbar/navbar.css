@@ -13,7 +13,7 @@
   }
 
 nav {
-  background-color: var(--secondary);
+  background-color: var(--secundario);
 }
 
   #inicioSesionBoton {
@@ -24,7 +24,17 @@ nav {
     font-weight: bold;
   }
 
+
+
   #inicioSesionBoton:hover {
     background-color: var(--acento-hover);
-    color: white;
+    color: var(--secundario);
+  }
+
+  #btnHamburger {
+    background-color: var(--principal);
+    
+  }
+  #iHamburger {
+    color: var(--secundario);
   }

@@ -10,9 +10,9 @@
   <div class="container">
     <a class="navbar-brand" href="#"><img src="assets\logo-vector\MEDAC_imagotipo_horiz_azul_RGB.svg" alt="Logotipo de MEDAC" draggable="false" height="45" /></a>
 
-    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#n_bar" aria-controls="n_bar" aria-expanded="false" aria-label="Toggle navigation">
+    <button id="btnHamburger" class="navbar-toggler me-3"  type="button" data-bs-toggle="collapse" data-bs-target="#n_bar" aria-controls="n_bar" aria-expanded="false" aria-label="Toggle navigation">
 
-      <i class="fa-solid fa-bars-staggered"></i>
+      <i id="iHamburger" class="fa-solid fa-bars-staggered"></i>
     </button>
 
 
