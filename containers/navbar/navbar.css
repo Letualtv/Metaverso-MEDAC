@@ -34,7 +34,8 @@ nav {
 /* Configuracion icono hamburger */
 #btnHamburger {
   background-color: var(--principal);
-
+  padding: 0.5rem 1rem;
+  
 }
 
 #iHamburger {
@@ -45,7 +46,8 @@ nav {
 
   #btnEntrar  {
     background-color: var(--acento);
-   width: 7rem;
+   width: 6rem;
+
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: bold;
