@@ -25,18 +25,18 @@
           <a class="nav-link mx-3" href="#!">Visita virtual</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link mx-3" href="#!">Galería</a>
+          <a class="nav-link mx-3" href="#!">Galería </a>
         </li>
         <li class="nav-item">
           <a class="nav-link mx-3" href="#!">Contacto</a>
         </li>
-        <!--
-          <li class="nav-item ms-3">
-          <a id="inicioSesionBoton" class="btn badge rounded-pill" href="#!">Iniciar sesión</a>
-        </li> 
-      -->
+        
       </ul>
     </div>
+    <div class="d-flex align-items-center">
+          <a  href="#!"><button id="btnEntrar" class="btn rounded-pill">Entrar
+          </button></a>
+</div> 
   </div>
 </nav>
 

@@ -7,10 +7,6 @@
 <!-- main -->
 
 <!-- Assambly image -->
-<div class="container-fluid bg-personal" id="index">           
-    <div class="text-center" id="tittle">
-        <h1>Metaverso Medac</h1>
-    </div>
-</div>
-
-
+<section id="main" class="" >
+<h1 id="tittle" class="text-center display-1 fw-bold text-white  fw-normal">Metaverso MEDAC</h1>
+</section>
