@@ -6,18 +6,18 @@
 
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg fixed-top bg-light navbar-light">
- 
-    <div class="container"> 
-         <a class="navbar-brand" href="#"><img id="medacLogo" src="assets\logo-vector\MEDAC_imagotipo_horiz_azul_RGB.svg" alt="Logotipo de MEDAC" draggable="false" height="45" /></a>
 
-                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#n_bar" aria-controls="navbarNavAltMarkup" aria-label="Toggle navigation">
-                    
-                    <i class="fas fa-bars"></i>
-                </button>
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src="assets\logo-vector\MEDAC_imagotipo_horiz_azul_RGB.svg" alt="Logotipo de MEDAC" draggable="false" height="45" /></a>
+
+    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#n_bar" aria-controls="n_bar" aria-expanded="false" aria-label="Toggle navigation">
+
+      <i class="fa-solid fa-bars-staggered"></i>
+    </button>
 
 
-                <div class="collapse navbar-collapse" id="n_bar">
-      <ul class="navbar-nav ms-auto align-items-center">
+    <div class="collapse navbar-collapse" id="n_bar">
+      <ul class="navbar-nav ms-auto align-items-left">
         <li class="nav-item">
           <a class="nav-link mx-3" href="#!">Inicio</a>
         </li>
@@ -37,4 +37,3 @@
     </div>
   </div>
 </nav>
-

@@ -17,9 +17,8 @@
 --acento: #00A89C;
 --acento-hover: #33b9b0;
 
-    /*Font family*/
-font-family: "Open Sans", sans-serif;
 
+      
     /*View Breakpoints*/
 --breakpoint-xs: 0;
 --breakpoint-sm: 576px;
@@ -28,4 +27,8 @@ font-family: "Open Sans", sans-serif;
 --breakpoint-xl: 1350px;
 --breakpoint-xxl: 1650px;
 
+}
+* {
+        /*Font family*/
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
