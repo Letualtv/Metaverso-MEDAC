@@ -8,7 +8,7 @@ section{
     background-attachment: fixed;
 }
 #main {
-  background-image:  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("assets/assembly/pic-assembly.jpg")
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("assets/assembly/pic-assembly.jpg");
 }
 
 #tittle {
