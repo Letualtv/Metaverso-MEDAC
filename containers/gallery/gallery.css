@@ -1,5 +1,7 @@
-#gallery {
-    background-color: var(--primary-100);
-   
+#card-tittle {
+    color: var(--primary-800);  
 }
 
+#gallery {
+    height: 50vh;
+}

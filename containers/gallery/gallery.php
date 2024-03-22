@@ -4,24 +4,31 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="gallery.css">
 
-<!-- gallery -->
+<!-- Gallery -->
+<section id="gallery">
+
+        <div class="row g-0">
+            <div class="col-md-6 col-12">
+            <img src="assets\assembly\pic-receptionlobby2.jpg" class="img-fluid " alt="Recepción">
+            </div>
+            <div class="col-md-6 col-12 d-flex align-items-center">
+                <div class="card-body ">
+                    <h1 class="card-title ml-5 pl-4 font-weight-bold" id="card-tittle">Galería</h1>
+                    <p class="card-subtitle mb-2 ml-5 pl-4 text-muted">
+                        Metaverso Medac
+                    </p>
+                    <p class="card-text mt-5 ml-5" id="card-text">
+                        En esta sección verás algunos bocetos realizados durante el proceso de desarrollo <br/>
+                        del <b>Metaverso MEDAC</b>.<br/>
+                        <br/>
+                        Además podrás conocer algunas de las zonas por las que podrás pasear durante la visita <br/>
+                        a nuestro centro virtual con esta galería en la que mostramos el trabajo realizado <br/>
+                        por nuestros compañeros. <br/>                                        
+                    </p>                
+                </div>
+            </div>
+        </div>
+</section>
 
 
-
-
-
-  <div class="card mb-3" style="">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="assets\assembly\pic-receptionlobby2.jpg" class="img-fluid " alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </div>
-</div>
 

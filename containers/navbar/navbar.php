@@ -24,7 +24,7 @@
           <a class="nav-link mx-3" href="#!">Visita virtual</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link mx-3" href="#!">Galería </a>
+          <a class="nav-link mx-3" href="#gallery">Galería </a>
         </li>
         <li class="nav-item">
           <a class="nav-link mx-3" href="#!">Contacto</a>
