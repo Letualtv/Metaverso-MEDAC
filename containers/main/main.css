@@ -1,14 +1,13 @@
 /* Tamaño */
-section{
-    height: 95vh;
+
+#main {
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("assets/assembly/pic-assembly.jpg");
+  height: 95vh;
     width: 100%;
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-}
-#main {
-  background-image:  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("assets/assembly/pic-assembly.jpg");
 }
 
 #tittle {

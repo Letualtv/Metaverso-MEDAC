@@ -18,14 +18,6 @@
 --acento-hover: #33b9b0;
 
 
-      
-    /*View Breakpoints*/
---breakpoint-xs: 0;
---breakpoint-sm: 576px;
---breakpoint-md: 767px;
---breakpoint-lg: 992px;
---breakpoint-xl: 1350px;
---breakpoint-xxl: 1650px;
 
 }
 * {
