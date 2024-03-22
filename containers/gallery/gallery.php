@@ -5,3 +5,20 @@
 <link rel="stylesheet" href="gallery.css">
 
 <!-- gallery -->
+
+<section id="gallery" class="container-fluid">
+  <div class="row">
+    <div class="col-12 col-md-6" id="imagen">
+        <img alt="Recepción" class="img-fluid" src="assets\assembly\pic-receptionlobby2.jpg">       
+    </div>
+    <div class="col-12 col-md-6" id="description"> 
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis ligula dapibus accumsan mollis. Ut ornare tellus turpis, sed malesuada quam pulvinar vel.
+            Morbi porttitor sodales nisl, vel fermentum ipsum. Fusce eget ex vitae nisl elementum aliquam eget et turpis. 
+            Vivamus eleifend metus diam, non tempor diam euismod eleifend. Fusce rhoncus laoreet arcu quis consequat.
+            Duis tincidunt lectus vel ipsum lobortis fringilla. Nulla facilisi. Fusce pharetra justo at ex pulvinar rhoncus.
+            Phasellus et turpis ante.
+        </p>
+    </div>    
+  </div>
+</section>
