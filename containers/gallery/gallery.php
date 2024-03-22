@@ -7,28 +7,25 @@
 <!-- Gallery -->
 <section id="gallery">
 
-        <div class="row g-0">
-            <div class="col-md-6 col-12">
-            <img src="assets\assembly\pic-receptionlobby2.jpg" class="img-fluid " alt="Recepción">
-            </div>
-            <div class="col-md-6 col-12 d-flex align-items-center">
-                <div class="card-body ">
-                    <h1 class="card-title ml-5 pl-4 font-weight-bold" id="card-tittle">Galería</h1>
-                    <p class="card-subtitle mb-2 ml-5 pl-4 text-muted">
-                        Metaverso Medac
-                    </p>
-                    <p class="card-text mt-5 ml-5" id="card-text">
-                        En esta sección verás algunos bocetos realizados durante el proceso de desarrollo <br/>
-                        del <b>Metaverso MEDAC</b>.<br/>
-                        <br/>
-                        Además podrás conocer algunas de las zonas por las que podrás pasear durante la visita <br/>
-                        a nuestro centro virtual con esta galería en la que mostramos el trabajo realizado <br/>
-                        por nuestros compañeros. <br/>                                        
-                    </p>                
-                </div>
-            </div>
-        </div>
+  <div class="row g-0">
+    <div class="col-md-6 col-12 d-flex align-items-center">
+      <img src="assets\assembly\pic-receptionlobby2.jpg" class="img-fluid " alt="Recepción">
+    </div>
+    <div class="col-md-6 col-12 d-flex align-items-center">
+      <div class="card-body ">
+        <h1 class="card-title ml-5 pl-4 font-weight-bold" id="card-tittle">Galería</h1>
+        <p class="card-subtitle mb-2 ml-5 pl-4 text-muted">
+          Metaverso Medac
+        </p>
+        <p class="card-text mt-5 ml-5" id="card-text">
+          En esta sección verás algunos bocetos realizados durante el proceso de desarrollo <br />
+          del <b>Metaverso MEDAC</b>.<br />
+          <br />
+          Además podrás conocer algunas de las zonas por las que podrás pasear durante la visita <br />
+          a nuestro centro virtual con esta galería en la que mostramos el trabajo realizado <br />
+          por nuestros compañeros. <br />
+        </p>
+      </div>
+    </div>
+  </div>
 </section>
-
-
-

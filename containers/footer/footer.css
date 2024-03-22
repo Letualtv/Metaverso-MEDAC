@@ -1,93 +1,57 @@
-:root {
 
-    /*Color palette*/
---primary-900: #010304;
---primary-800: #002E4C;
---primary-700: #364D63;
---primary-600: #476685;
---primary-500: #5980A6;
---primary-400: #7A99B8;
---primary-300: #9CB3C9;
---primary-200: #BDCCDB;
---primary-100: #DEE5ED;
---primary-50:  #F0F4F7;
-
---principal: #002E4C;
---secundario: #FFFFFF;
---acento: #00A89C;
---acento-hover: #33b9b0;
-
-    /*Font family*/
-font-family: 'Open Sans', sans-serif;
-
-    /*View Breakpoints*/
---breakpoint-xs: 0;
---breakpoint-sm: 576px;
---breakpoint-md: 767px;
---breakpoint-lg: 992px;
---breakpoint-xl: 1350px;
---breakpoint-xxl: 1650px;
-
-}
-
-*{
-
-    font-family: 'Open Sans',sans-serif;
-    padding-top: 1%;
-    
-}
-footer{
-
+#footer{
     background-color: var(--principal);
-
+    color: var(--acento-hover);
+    min-height: 30vh;
 }
 
-ul {
-    color: var(--acento);
-}
 
-h3,h4,h5,h6 {
+
+.hFooter {
     color:var(--secundario);
     font-weight: 600;
-    font-size: 1rem;
-    margin-bottom: -0.5%;
+
 }
 
-img {
+.iFooter {
     width: 200px;
     
 }
 
-li a {
+.ulFooter li a {
+
     text-decoration: none;
     color: inherit;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
+
     font-weight: 400;
     line-height: 1.5;
     margin: 4px, 0px;
 }
 
-li a:hover{
-    color: var(--acento-hover);
-}
-i {
+.ulFooter li a:hover{
     color: var(--acento);
-    font-size: 25px;
-    margin-left: 20px;
-    
-    
 }
-.politica a{
-    text-decoration: none;
-    color: #9cb3c9;
-    font-size: 12px;
-    margin-left: 15px;
+.iconFooter a {
+    color: var(--acento-hover);
+
+margin-left: 0.5em;
+margin-right: 0.5em;
+    
 }
 
-.politica p{
-    color: #9cb3c9;
-    text-align: right;
-    font-size: 11px;
-    margin-right: 5%;
+.iconFooter a i {
+    transition: transform 0.2s ease; /* Animation */
 }
+
+.iZoom:hover i {
+
+    color: var(--acento-hover);
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.politica a, span{
+    text-decoration: none;
+    color: #9cb3c9;
+    font-size: 0.8rem;
+
+}
+

@@ -3,7 +3,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="footer.css">
 <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">-->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <!--Fuentes-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,92 +14,97 @@
 <!-- FOOTER -->
 
 
-<footer class="footer">
+<footer class="footer d-flex justify-content-center justify-content-lg-between p-4 " id="footer">
+    <div class="container-fluid">
+        <div class="row pt-5">
 
-        <div class="container">
+            <!-- Imagen cogido en local -->
+            <div class="col-lg-3 col-md-12 align-items-center text-center">
 
-            <div class="row">
 
-                
 
-                <div class="col-md-3">
+                <div class="container">
+<div class="row g-4  ">
 
-                    <ul><a href="https://medac.es/"><img src="MEDAC-logoblanco.svg"/></a></ul> <!-- Imagen cogido en local -->
 
-                </div> 
-                <div class="col-md-3">   
+                <div class="col-12"><a href="https://medac.es/"><img class="iFooter" src="assets\logo-vector\MEDAC_imagotipo_horiz_blanco_RGB.svg" /></a>
+</div>
+                <div class="text-center iconFooter col align-items-end col-12 pb-4">
+                    <a class="iZoom" href="https://www.facebook.com/institutomedac"><i class="fa-brands fa-facebook fa-xl"></i></a>
+                    <a class="iZoom" href="https://www.instagram.com/institutomedac"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                    <a class="iZoom" href="https://www.linkedin.com/school/medac/"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+                    <a class="iZoom" href="https://twitter.com/institutoMEDAC"><i class="fa-brands fa-x-twitter fa-xl"></i></a>
+                    <a class="iZoom" href="https://www.youtube.com/user/medacdeportesalud"><i class="fa-brands fa-youtube fa-xl"></i></a>
+                    <a class="iZoom" href="https://www.tiktok.com/@institutomedac"><i class="fa-brands fa-tiktok fa-xl"></i></a>
 
-                    <h6>Formación</h6>
-                    <ul class="list-unstyled">
-                        <li><a href="https://medac.es/fp-presencial">FP presencial</a></li>
-                        <li><a href="https://medac.es/fp-a-distancia">FP a distancia</a></li>
-                        <li><a href="https://medac.es/cursos-especializacion-fp">Curso de Especialización</a></li>
-                        <li><a href="https://medac.es/master">Másteres online</a></li>
-                    </ul>
                 </div>
-                <div class="col-md-3">
-
-                    <h6>MEDAC</h6>
-                    <ul class="list-unstyled">
-                        <li><a href="https://medac.es/fundacion">Fundación MEDAC</a></li>
-                        <li><a href="https://medac.es/blogs">Blog</a></li>
-                        <li><a href="https://secure.webpublication.es/406386/1944586/#page=1">Revista</a></li>
-                        <li><a href="https://medac.es/compromiso-y-canal-etico">Canal ético</a></li>
-                        <li><a href="https://medac.es/contacto">Contacto</a></li>
-                        <li><a href="https://medac.es/trabaja-con-nosotros">Trabaja con nosotros</a></li>
-                    </ul>
                 </div>
-                <div class="col-md-3">
-
-                    <h6>Alumnos</h6>
-                    <ul class="list-unstyled">
-                        <li><a href="https://medac.instructure.com/">Aula Virtual</a></li>
-                        <li><a href="https://medac.es/preguntas-frecuentes">Preguntas frecuentes</a></li>
-                        <li><a href="https://medac.es/sobre-nosotros/practicas-en-empresas">Empresas colaboradoras</a></li>
-                        <li><a href="https://medac.es/opiniones-medac">Opiniones MEDAC</a></li>
-                        <li><a href="https://medac.es/portal-empleo">Portal de empleo</a></li>
-                    </ul>
                 </div>
-                
-
-
             </div>
 
+
+
+
+
+
+
+
+
+
+            <div class="col-lg-3 col-md-12 align-items-center ">
+
+                <h6 class="hFooter mb-2 ">Formación</h6>
+                <ul class="list-unstyled ulFooter">
+                    <li><a href="https://medac.es/fp-presencial">FP presencial</a></li>
+                    <li><a href="https://medac.es/fp-a-distancia">FP a distancia</a></li>
+                    <li><a href="https://medac.es/cursos-especializacion-fp">Curso de Especialización</a></li>
+                    <li><a href="https://medac.es/master">Másteres online</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-12 align-items-center">
+
+                <h6 class="hFooter mb-2">MEDAC</h6>
+                <ul class="list-unstyled ulFooter">
+                    <li><a href="https://medac.es/fundacion">Fundación MEDAC</a></li>
+                    <li><a href="https://medac.es/blogs">Blog</a></li>
+                    <li><a href="https://secure.webpublication.es/406386/1944586/#page=1">Revista</a></li>
+                    <li><a href="https://medac.es/compromiso-y-canal-etico">Canal ético</a></li>
+                    <li><a href="https://medac.es/contacto">Contacto</a></li>
+                    <li><a href="https://medac.es/trabaja-con-nosotros">Trabaja con nosotros</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-12 align-items-center">
+
+                <h6 class="hFooter mb-2">Alumnos</h6>
+                <ul class="list-unstyled ulFooter">
+                    <li><a href="https://medac.instructure.com/">Aula Virtual</a></li>
+                    <li><a href="https://medac.es/preguntas-frecuentes">Preguntas frecuentes</a></li>
+                    <li><a href="https://medac.es/sobre-nosotros/practicas-en-empresas">Empresas colaboradoras</a></li>
+                    <li><a href="https://medac.es/opiniones-medac">Opiniones MEDAC</a></li>
+                    <li><a href="https://medac.es/portal-empleo">Portal de empleo</a></li>
+                </ul>
+            </div>
         </div>
+
+
 
 
         <!-- Parte de abajo -->
 
-        <div class="text-center">
 
-            <a href="https://www.facebook.com/institutomedac"><i class="bi bi-facebook"></i></a>
-            <a href="https://www.instagram.com/institutomedac"><i class="bi bi-instagram"></i></a>
-            <a href="https://www.linkedin.com/school/medac/"><i class="bi bi-linkedin"></i></a>
-            <a href="https://twitter.com/institutoMEDAC"><i class="bi bi-twitter-x"></i></a>
-            <a href="https://www.youtube.com/user/medacdeportesalud"><i class="bi bi-youtube"></i></a>
-            <a href="https://www.tiktok.com/@institutomedac"><i class="bi bi-tiktok"></i></a>
+        <div class="politica float-left mx-2">
+            <a href="https://medac.es/politica-de-privacidad">Política de privacidad</a>
+            <a href="https://medac.es/politica-de-cookies">Política de cookies</a>
+            <a href="https://medac.es/terminos-y-condiciones">Aviso legal</a>
 
+        </div>
+        <div class="float-right politica mx-2">
 
+            <span>Copyright © 2024 MEDAC Instituto Oficial de Formación Profesional. Todos los derechos reservados.</span>
         </div>
 
 
-        <div class="">
-            <div class="politica">
-                <a href="https://medac.es/politica-de-privacidad">Política de privacidad</a>
-                <a href="https://medac.es/politica-de-cookies">Política de cookies</a>
-                <a href="https://medac.es/terminos-y-condiciones">Aviso legal</a>
-                <p>Copyright © 2024 MEDAC Instituto Oficial de Formación Profesional. Todos los derechos reservados.</p>
-            </div>
-            <div>
-                <p></p>
-            </div>
 
-
-
-
-
-
-
-    </footer>
-
-    
+</footer>
