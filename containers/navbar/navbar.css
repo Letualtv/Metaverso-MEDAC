@@ -34,7 +34,7 @@ nav {
 /* Configuracion icono hamburger */
 #btnHamburger {
   background-color: var(--principal);
-  padding: 0.5rem 1rem;
+
   
 }
 
@@ -46,7 +46,6 @@ nav {
 
   #btnEntrar  {
     background-color: var(--acento);
-   width: 6rem;
 
     text-decoration: none;
     font-size: 1.2rem;
@@ -59,5 +58,6 @@ nav {
     color: var(--secundario);
   }
   
-  
+
+
   

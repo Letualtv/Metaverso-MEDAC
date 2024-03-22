@@ -6,18 +6,19 @@
 
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg fixed-top bg-light navbar-light">
+  
+  <div class="container">
+    <a class=" ms-3 navbar-brand" href="#main">
+      <img class="d-inline-block align-text-top" src="assets\logo-fundacion\FUNDACION_MEDAC_imagotipo_horizontal_azul_RGB.svg" alt="Logotipo de MEDAC" loading="lazy" height="65" /></a>
 
-  <div class="container-fluid">
-    <button id="btnHamburger" class="navbar-toggler ml-3" type="button" data-bs-toggle="collapse" data-bs-target="#n_bar" aria-controls="n_bar" aria-expanded="false" aria-label="Toggle navigation">
+    <button id="btnHamburger" class="navbar-toggler col-2 py-3 me-3" type="button" data-bs-toggle="collapse" data-bs-target="#n_bar" aria-controls="n_bar" aria-expanded="false" aria-label="Toggle navigation">
       <i onclick="changeI(this)" id="iHamburger" class="fa-solid fa-bars  fa-lg"></i>
     </button>
 
     <div class="collapse navbar-collapse " id="n_bar">
-      <a class=" mt-2 mt-lg-0" href="#">
-        <img class="mx-auto d-block" src="assets\logo-fundacion\FUNDACION_MEDAC_imagotipo_horizontal_azul_RGB.svg" alt="Logotipo de MEDAC" loading="lazy" height="65" /></a>
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item ">
-          <a class="nav-link mx-3" href="#!">Inicio</a>
+          <a class="nav-link mx-3" href="#main">Inicio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link mx-3" href="#!">Visita virtual</a>
@@ -27,13 +28,12 @@
         </li>
         <li class="nav-item">
           <a class="nav-link mx-3" href="#!">Contacto</a>
-        </li>
-
+        </li>  
+        <li class="nav-item mx-3 mx-lg-0 me-lg-3" > 
+          <a class="text-decoration-none" href="#!"><button id="btnEntrar" type="button" class="rounded-pill mx-md-3 col-lg-12 btn btn-lg d-grid">Entrar
+            </button></a>
+      </li>
       </ul>
-    </div>
-    <div class=" mx-1 float-end">
-      <a class="" href="#!"><button id="btnEntrar" class="btn rounded-pill">Entrar
-        </button></a>
     </div>
   </div>
 </nav>
