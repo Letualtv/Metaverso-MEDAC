@@ -48,7 +48,7 @@ margin-right: 0.5em;
     color: var(--acento-hover);
     transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
-.politica a, span{
+.politica a, i, span{
     text-decoration: none;
     color: #9cb3c9;
     font-size: 0.8rem;

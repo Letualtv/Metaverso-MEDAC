@@ -96,7 +96,9 @@
 
         <div class="politica float-left mx-2">
             <a href="https://medac.es/politica-de-privacidad">Política de privacidad</a>
+            <i class="fa-solid fa-grip-lines-vertical text-center align-items-center"></i>
             <a href="https://medac.es/politica-de-cookies">Política de cookies</a>
+            <i class="fa-solid fa-grip-lines-vertical text-center align-items-center"></i>
             <a href="https://medac.es/terminos-y-condiciones">Aviso legal</a>
 
         </div>
