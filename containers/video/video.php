@@ -7,7 +7,7 @@
 <!-- video -->
 <section id="video" class="container-fluid text-center py-5">
   <div class="videoContainer mx-auto text-center">
-    <video  autoplay controls src="assets\video\videoFM.mp4">
+    <video  autoplay controls controlsList="nodownload" type="video/mp4" src="assets\video\videoFM.mp4">
 
     </div>
 </video>
