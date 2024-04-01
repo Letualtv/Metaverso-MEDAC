@@ -26,8 +26,8 @@
 
     <?php require('./containers/navbar/navbar.php') ?>
     <?php require('./containers/main/main.php') ?>
-    <?php require('./containers/video/video.php') ?>
     <?php require('./containers/gallery/gallery.php') ?>
+    <?php require('./containers/video/video.php') ?>
     <?php require('./containers/footer/footer.php') ?>
 
 
