@@ -16,7 +16,13 @@
     <!-- ENLACE ESTILOS -->
 
     <style>
-        <?php require('./containers/navbar/navbar.css') ?><?php require('./containers/main/main.css') ?><?php require('./containers/gallery/gallery.css') ?><?php require('./containers/video/video.css') ?><?php require('./containers/footer/footer.css') ?><?php require('app.css') ?>
+        <?php require('./containers/navbar/navbar.css') ?>
+        <?php require('./containers/main/main.css') ?>
+        <?php require('./containers/gallery/gallery.css') ?>
+        <?php require('./containers/carousel/carousel.css') ?>
+        <?php require('./containers/video/video.css') ?>
+        <?php require('./containers/footer/footer.css') ?>
+        <?php require('app.css') ?>
     </style>
 
 
@@ -28,6 +34,7 @@
     <?php require('./containers/main/main.php') ?>
     <?php require('./containers/video/video.php') ?>
     <?php require('./containers/gallery/gallery.php') ?>
+    <?php require('./containers/carousel/carousel.php') ?>
     <?php require('./containers/footer/footer.php') ?>
 
 

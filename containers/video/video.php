@@ -6,15 +6,18 @@
 
 <!-- video -->
 
-
     <video id="video"  controls class="hover-to-play embed-responsive embed-responsive-16by9">
-        <source  title="Vídeo de Salón de Actos" src="assets\video\videoFM.mp4"></source>
+      <source  title="Vídeo de Salón de Actos" src="assets\video\videoFM.mp4"></source>
     </video>
 
-    <script>
 
-const clip = document.querySelectorAll(".hover-to-play");
-for (let i = 0; i < clip.length; i++) { clip[i].addEventListener("mouseenter", function (e) { clip[i].play();
-  }); clip[i].addEventListener("mouseout", function (e) { clip[i].pause(); }); }
+<script>
+
+  const clip = document.querySelectorAll(".hover-to-play");
+
+  for (let i = 0; i < clip.length; i++){
+     clip[i].addEventListener("mouseenter", function (e) {clip[i].play();}); 
+     clip[i].addEventListener("mouseout", function (e) {clip[i].pause();}); 
+  }
 
 </script>
