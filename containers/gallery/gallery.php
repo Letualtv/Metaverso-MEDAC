@@ -5,19 +5,19 @@
 <link rel="stylesheet" href="gallery.css">
 
 <!-- Gallery -->
-<section id="gallery" class="container">
+<section id="gallery">
 
-  <div class="row ">
+  <div class="row container-fluid">
     <div class="col-md-6 col-12 d-flex align-items-center">
       <img src="assets\assembly\pic-receptionlobby2.jpg" class="img-fluid " alt="Recepción">
     </div>
     <div class="col-md-6 col-12 d-flex align-items-center">
       <div class="card-body ">
-        <h1 class="card-title  font-weight-bold" id="card-tittle">Galería</h1>
-        <p class="card-subtitle  text-muted">
+        <h1 class="card-title font-weight-bold" id="card-tittle">Galería</h1>
+        <p class="card-subtitle text-muted">
           Metaverso Medac
         </p>
-        <p class="card-text " id="card-text">
+        <p class="card-text" id="card-text">
           En esta sección verás algunos bocetos realizados durante el proceso de desarrollo <br />
           del <b>Metaverso MEDAC</b>.<br />
           <br />
@@ -28,4 +28,6 @@
       </div>
     </div>
   </div>
+</section>
+  
 </section>
