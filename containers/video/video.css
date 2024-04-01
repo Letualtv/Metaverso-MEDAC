@@ -2,7 +2,10 @@
     background-color: var(--principal);
 
 }
-#video video {
+.videoContainer video {
     max-width: 100%;
     height: auto;
+}
+.videoContainer {
+    max-width: 900px;
 }
