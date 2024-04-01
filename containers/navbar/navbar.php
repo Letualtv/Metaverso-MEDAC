@@ -9,7 +9,7 @@
   
   <div class="container">
     <a class=" ms-3 navbar-brand" href="#main">
-      <img class="d-inline-block align-text-top" src="assets\logo-fundacion\FUNDACION_MEDAC_imagotipo_horizontal_azul_RGB.svg" alt="Logotipo de MEDAC" loading="lazy" height="65" /></a>
+      <img class="d-inline-block align-text-top " src="assets\logo-fundacion\FUNDACION_MEDAC_imagotipo_horizontal_azul_RGB.svg" alt="Logotipo de MEDAC" loading="lazy" /></a>
 
     <button id="btnHamburger" class="navbar-toggler col-2 py-3 me-3" type="button" data-bs-toggle="collapse" data-bs-target="#n_bar" aria-controls="n_bar" aria-expanded="false" aria-label="Toggle navigation">
       <i onclick="changeI(this)" id="iHamburger" class="fa-solid fa-bars  fa-lg"></i>
@@ -19,6 +19,9 @@
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item ">
           <a class="nav-link mx-3" href="#main">Inicio</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link mx-3" href="#video">Trailer</a>
         </li>
         <li class="nav-item">
           <a class="nav-link mx-3" href="#!">Visita virtual</a>

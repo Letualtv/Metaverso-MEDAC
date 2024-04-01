@@ -24,21 +24,21 @@
 
 
                 <div class="container">
-<div class="row g-4  ">
+                    <div class="row g-4  ">
 
 
-                <div class="col-12"><a href="https://medac.es/"><img class="iFooter" src="assets\logo-vector\MEDAC_imagotipo_horiz_blanco_RGB.svg" /></a>
-</div>
-                <div class="text-center iconFooter col align-items-end col-12 pb-4">
-                    <a class="iZoom" href="https://www.facebook.com/institutomedac"><i class="fa-brands fa-facebook fa-xl"></i></a>
-                    <a class="iZoom" href="https://www.instagram.com/institutomedac"><i class="fa-brands fa-instagram fa-xl"></i></a>
-                    <a class="iZoom" href="https://www.linkedin.com/school/medac/"><i class="fa-brands fa-linkedin fa-xl"></i></a>
-                    <a class="iZoom" href="https://twitter.com/institutoMEDAC"><i class="fa-brands fa-x-twitter fa-xl"></i></a>
-                    <a class="iZoom" href="https://www.youtube.com/user/medacdeportesalud"><i class="fa-brands fa-youtube fa-xl"></i></a>
-                    <a class="iZoom" href="https://www.tiktok.com/@institutomedac"><i class="fa-brands fa-tiktok fa-xl"></i></a>
+                        <div class="col-12"><a href="https://medac.es/"><img class="iFooter" src="assets\logo-vector\MEDAC_imagotipo_horiz_blanco_RGB.svg" /></a>
+                        </div>
+                        <div class="text-center iconFooter col align-items-end col-12 pb-4">
+                            <a target="_blank" title="MEDAC facebook" class="iZoom" href="https://www.facebook.com/institutomedac"><i class="fa-brands fa-facebook fa-xl"></i></a>
+                            <a target="_blank" title="MEDAC instagram" class="iZoom" href="https://www.instagram.com/institutomedac"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                            <a target="_blank" title="MEDAC linkedin" class="iZoom" href="https://www.linkedin.com/school/medac/"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+                            <a target="_blank" title="MEDAC twitter" class="iZoom" href="https://twitter.com/institutoMEDAC"><i class="fa-brands fa-x-twitter fa-xl"></i></a>
+                            <a target="_blank" title="MEDAC youtube" class="iZoom" href="https://www.youtube.com/user/medacdeportesalud"><i class="fa-brands fa-youtube fa-xl"></i></a>
+                            <a target="_blank" title="MEDAC tiktok" class="iZoom" href="https://www.tiktok.com/@institutomedac"><i class="fa-brands fa-tiktok fa-xl"></i></a>
 
-                </div>
-                </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -51,39 +51,39 @@
 
 
 
-            <div class="col-lg-3 col-md-12 align-items-center ">
+            <div class=" col-lg-3 col-md-6 col-sm-12 align-items-center ">
 
                 <h6 class="hFooter mb-2 ">Formación</h6>
                 <ul class="list-unstyled ulFooter">
-                    <li><a href="https://medac.es/fp-presencial">FP presencial</a></li>
-                    <li><a href="https://medac.es/fp-a-distancia">FP a distancia</a></li>
-                    <li><a href="https://medac.es/cursos-especializacion-fp">Curso de Especialización</a></li>
-                    <li><a href="https://medac.es/master">Másteres online</a></li>
+                    <li><a title="FP MEDAC presencial" target="_blank" href="https://medac.es/fp-presencial">FP presencial</a></li>
+                    <li><a title="FP MEDAC a distancia" target="_blank" href="https://medac.es/fp-a-distancia">FP a distancia</a></li>
+                    <li><a title="MEDAC cursos especialización" target="_blank" href="https://medac.es/cursos-especializacion-fp">Curso de Especialización</a></li>
+                    <li><a title="MEDAC master" target="_blank" href="https://medac.es/master">Másteres online</a></li>
                 </ul>
             </div>
 
-            <div class="col-lg-3 col-md-12 align-items-center">
+            <div class=" col-lg-3 col-md-6 col-sm-12 align-items-center">
 
                 <h6 class="hFooter mb-2">MEDAC</h6>
                 <ul class="list-unstyled ulFooter">
-                    <li><a href="https://medac.es/fundacion">Fundación MEDAC</a></li>
-                    <li><a href="https://medac.es/blogs">Blog</a></li>
-                    <li><a href="https://secure.webpublication.es/406386/1944586/#page=1">Revista</a></li>
-                    <li><a href="https://medac.es/compromiso-y-canal-etico">Canal ético</a></li>
-                    <li><a href="https://medac.es/contacto">Contacto</a></li>
-                    <li><a href="https://medac.es/trabaja-con-nosotros">Trabaja con nosotros</a></li>
+                    <li><a target="_blank" href="https://medac.es/fundacion">Fundación MEDAC</a></li>
+                    <li><a target="_blank" href="https://medac.es/blogs">Blog</a></li>
+                    <li><a target="_blank" href="https://secure.webpublication.es/406386/1944586/#page=1">Revista</a></li>
+                    <li><a target="_blank" href="https://medac.es/compromiso-y-canal-etico">Canal ético</a></li>
+                    <li><a target="_blank" href="https://medac.es/contacto">Contacto</a></li>
+                    <li><a target="_blank" href="https://medac.es/trabaja-con-nosotros">Trabaja con nosotros</a></li>
                 </ul>
             </div>
 
-            <div class="col-lg-3 col-md-12 align-items-center">
+            <div class=" col-lg-3 col-md-6 col-sm12 align-items-center">
 
                 <h6 class="hFooter mb-2">Alumnos</h6>
                 <ul class="list-unstyled ulFooter">
-                    <li><a href="https://medac.instructure.com/">Aula Virtual</a></li>
-                    <li><a href="https://medac.es/preguntas-frecuentes">Preguntas frecuentes</a></li>
-                    <li><a href="https://medac.es/sobre-nosotros/practicas-en-empresas">Empresas colaboradoras</a></li>
-                    <li><a href="https://medac.es/opiniones-medac">Opiniones MEDAC</a></li>
-                    <li><a href="https://medac.es/portal-empleo">Portal de empleo</a></li>
+                    <li><a target="_blank" href="https://medac.instructure.com/">Aula Virtual</a></li>
+                    <li><a target="_blank" href="https://medac.es/preguntas-frecuentes">Preguntas frecuentes</a></li>
+                    <li><a target="_blank" href="https://medac.es/sobre-nosotros/practicas-en-empresas">Empresas colaboradoras</a></li>
+                    <li><a target="_blank" href="https://medac.es/opiniones-medac">Opiniones MEDAC</a></li>
+                    <li><a target="_blank" href="https://medac.es/portal-empleo">Portal de empleo</a></li>
                 </ul>
             </div>
         </div>
@@ -95,11 +95,11 @@
 
 
         <div class="politica float-left mx-2">
-            <a href="https://medac.es/politica-de-privacidad">Política de privacidad</a>
+            <a target="_blank" href="https://medac.es/politica-de-privacidad">Política de privacidad</a>
             <i class="fa-solid fa-grip-lines-vertical text-center align-items-center"></i>
-            <a href="https://medac.es/politica-de-cookies">Política de cookies</a>
+            <a target="_blank" href="https://medac.es/politica-de-cookies">Política de cookies</a>
             <i class="fa-solid fa-grip-lines-vertical text-center align-items-center"></i>
-            <a href="https://medac.es/terminos-y-condiciones">Aviso legal</a>
+            <a target="_blank" href="https://medac.es/terminos-y-condiciones">Aviso legal</a>
 
         </div>
         <div class="float-right politica mx-2">
