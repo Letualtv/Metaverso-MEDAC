@@ -7,17 +7,17 @@
 <!-- Gallery -->
 <section id="gallery">
 
-  <div class="row g-0">
+  <div class="row ">
     <div class="col-md-6 col-12 d-flex align-items-center">
       <img src="assets\assembly\pic-receptionlobby2.jpg" class="img-fluid " alt="Recepción">
     </div>
     <div class="col-md-6 col-12 d-flex align-items-center">
       <div class="card-body ">
-        <h1 class="card-title ml-5 pl-4 font-weight-bold" id="card-tittle">Galería</h1>
-        <p class="card-subtitle mb-2 ml-5 pl-4 text-muted">
+        <h1 class="card-title  font-weight-bold" id="card-tittle">Galería</h1>
+        <p class="card-subtitle  text-muted">
           Metaverso Medac
         </p>
-        <p class="card-text mt-5 ml-5" id="card-text">
+        <p class="card-text " id="card-text">
           En esta sección verás algunos bocetos realizados durante el proceso de desarrollo <br />
           del <b>Metaverso MEDAC</b>.<br />
           <br />
