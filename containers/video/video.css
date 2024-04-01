@@ -1,3 +1,8 @@
 #video {
     background-color: var(--principal);
+
+}
+#video video {
+    max-width: 100%;
+    height: auto;
 }

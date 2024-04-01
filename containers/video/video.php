@@ -5,9 +5,8 @@
 <link rel="stylesheet" href="video.css">
 
 <!-- video -->
-<section id="video" class="container text-center py-5">
-    <video class="embed-responsive embed-responsive-16by9 " autoplay controls>
-  <source  title="Vídeo de Salón de Actos"  src="assets\video\videoFM.mp4"></source>
+<section id="video" class="container-fluid text-center py-5">
+    <video  autoplay controls src="assets\video\videoFM.mp4">
 </video>
 </section>
 
