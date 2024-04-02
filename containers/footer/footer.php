@@ -27,7 +27,7 @@
                     <div class="row g-4  ">
 
 
-                        <div class="col-12"><a href="https://medac.es/"><img class="iFooter" src="assets\logo-vector\MEDAC_imagotipo_horiz_blanco_RGB.svg" /></a>
+                        <div class="col-12"><a target="_blank" title="MEDAC logo" href="https://medac.es/"><img class="iFooter" src="assets\logo-vector\MEDAC_imagotipo_horiz_blanco_RGB.svg" /></a>
                         </div>
                         <div class="text-center iconFooter col align-items-end col-12 pb-4">
                             <a target="_blank" title="MEDAC facebook" class="iZoom" href="https://www.facebook.com/institutomedac"><i class="fa-brands fa-facebook fa-xl"></i></a>
@@ -95,16 +95,16 @@
 
 
         <div class="politica float-left mx-2">
-            <a target="_blank" href="https://medac.es/politica-de-privacidad">Política de privacidad</a>
+            <a target="_blank" title="Política de privacidad MEDAC" href="https://medac.es/politica-de-privacidad">Política de privacidad</a>
             <i class="fa-solid fa-grip-lines-vertical text-center align-items-center"></i>
-            <a target="_blank" href="https://medac.es/politica-de-cookies">Política de cookies</a>
+            <a target="_blank" title="Política de cookies MEDAC" href="https://medac.es/politica-de-cookies">Política de cookies</a>
             <i class="fa-solid fa-grip-lines-vertical text-center align-items-center"></i>
-            <a target="_blank" href="https://medac.es/terminos-y-condiciones">Aviso legal</a>
+            <a target="_blank" title="Términos y condiciones MEDAC" href="https://medac.es/terminos-y-condiciones">Aviso legal</a>
 
         </div>
-        <div class="float-right politica mx-2">
+        <div class=" float-right politica mx-2">
 
-            <span>Copyright © 2024 MEDAC Instituto Oficial de Formación Profesional. Todos los derechos reservados.</span>
+           Copyright © 2024 MEDAC Instituto Oficial de Formación Profesional. Todos los derechos reservados.
         </div>
 
 
