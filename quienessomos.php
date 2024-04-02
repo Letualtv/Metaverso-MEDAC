@@ -28,6 +28,7 @@
         <?php require('./containers/gallery/gallery.css') ?>
         <?php require('./containers/footer/footer.css') ?>
         <?php require('./containers/carousel/carousel.css') ?>
+        
         <?php require('app.css') ?>
     </style>
 

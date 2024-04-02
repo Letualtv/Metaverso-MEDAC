@@ -36,6 +36,7 @@
         <?php require('./containers/footer/footer.css') ?>
         <?php require('./containers/carousel/carousel.css') ?>
         <?php require('./containers/contact/contact.css') ?>
+        <?php require('./containers/aside/aside.css') ?>
         <?php require('app.css') ?>
     </style>
 

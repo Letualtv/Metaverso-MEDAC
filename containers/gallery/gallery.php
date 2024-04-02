@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="gallery.css">
 
 <!-- Gallery -->
-<section id="gallery">
+<section id="gallery" >
 
   <div class="row container-fluid">
     <div class="col-md-6 col-12 d-flex align-items-center">

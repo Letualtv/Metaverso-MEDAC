@@ -10,19 +10,3 @@
 <section id="main" >
 <h1 id="tittle" class="text-center display-1 fw-bold text-white  fw-normal">Metaverso MEDAC</h1>
 </section>
-
-
-<div class="container" id="aside">
-  <div class="row">
-    <div class="col-md-6">
-      <h3 class="title-outside">¿Qué es?</h3>
-      <div class="text aText">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Fusce maximus arcu sit amet lectus dapibus ullamcorper. Fusce non sollicitudin velit. 
-          Proin ornare semper efficitur. Integer viverra sodales odio nec convallis. 
-          Curabitur eget vestibulum eros, et malesuada justo.
-      </div>
-    </div>
-      <img class="image-outside" src="assets/logo-fundacion/medac_metaverso.png">
-  </div>
-</div> 

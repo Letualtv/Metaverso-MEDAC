@@ -1,0 +1,40 @@
+/* tarjetas*/
+
+#aside {
+min-height: 70vh;
+
+
+    background-color: var(--primary-300);
+    
+    
+    } 
+    
+    .title-outside {
+      
+      position: relative;
+      top: -25px;
+      width: fit-content;
+      padding: 0 10px;
+      font-weight: bolder;
+      font-size: 2.5rem;
+    }
+    
+
+    
+
+    .image-outside {
+        border: 1px solid red;
+
+  width: 100%;
+      }  
+/* @media(min-width: 800px){ 
+    .image-outside {
+        border: 1px solid red;
+        background-color: black;
+        position: relative;
+        bottom: -130px;
+        right: -100px;
+        max-width: 250px;
+  
+      }  
+  } */

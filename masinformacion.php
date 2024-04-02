@@ -30,6 +30,8 @@
         <?php require('./containers/footer/footer.css') ?>
         <?php require('./containers/carousel/carousel.css') ?>
         <?php require('app.css') ?>
+        <?php require('./containers/aside/aside.css') ?>
+
     </style>
 
 
@@ -38,6 +40,7 @@
     <!-- ENLACE COMPONENTES -->
 
     <?php require('./containers/navbar/navbar.php') ?>
+    <?php require('./containers/aside/aside.php') ?>
 
     <?php require('./containers/footer/footer.php') ?>
 

@@ -34,8 +34,8 @@
             Acerca de
           </a>
           <ul class="dropdown-menu ">
-            <li><a class="dropdown-item" href="quienessomos.php">Quienes somos</a></li>
-            <li><a class="dropdown-item" href="masinformacion.php">Más información</a></li>
+            <li><a class="dropdown-item h6" href="quienessomos.php">Quienes somos</a></li>
+            <li><a class="dropdown-item h6" href="masinformacion.php">Más información</a></li>
           </ul>
         </li>
         <li class="nav-item aUnL">
