@@ -40,8 +40,8 @@
 }
 
 /* tarjetas*/
-/*
-.container {
+
+#aside {
   margin: 20rem;
   background-color: var(--primary-300);
   width: 5rem;
@@ -54,7 +54,7 @@
   padding: 0 10px;
 }
 
-.text {
+.aText {
   width: 70%;
   height: 120px;
   padding: 2rem 2rem 4rem;
@@ -67,4 +67,4 @@
   width: 20%;
   bottom: -20px;
   right: -20px;
-} */
+} 
