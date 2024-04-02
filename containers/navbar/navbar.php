@@ -12,7 +12,7 @@
       <img class="d-inline-block align-text-top " src="assets\logo-fundacion\FUNDACION_MEDAC_imagotipo_horizontal_azul_RGB.svg" alt="Logotipo de MEDAC" loading="lazy" /></a>
 
     <button id="btnHamburger" class="navbar-toggler col-2 py-3 me-3" type="button" data-bs-toggle="collapse" data-bs-target="#n_bar" aria-controls="n_bar" aria-expanded="false" aria-label="Toggle navigation">
-      <i onclick="changeI(this)" id="iHamburger" class="fa-solid fa-bars  fa-lg"></i>
+      <i onclick="changeI(this)" id="iHamburger" class="fa-solid fa-bars fa-lg"></i>
     </button>
 
     <div class="collapse navbar-collapse " id="n_bar">
