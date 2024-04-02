@@ -1,17 +1,37 @@
-.btnEntrar  {
+#sfButton  {
     background-color: var(--acento);
-
+padding: 5px 30px;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: bold;
     color: var(--secundario);
   }
 
-  .btnEntrar:hover {
+  #sfButton:hover {
     background-color: var(--acento-hover);
     color: var(--secundario);
   }
 
   #form {
-    max-width: 500px;
+    max-width: 550px;
   }
+  .form-check-label, .form-check-label a {
+    font-size: 0.9rem;
+  }
+ /* .form-floating input {
+    border-bottom: 1px solid black;
+  }
+   .form-floating input:focus + label{
+    text-decoration: none;
+    border-bottom: 1px solid var(--acento);
+    background-color: var(--primary-200);
+    
+  } 
+  .form-floating > input:not(:focus):placeholder-shown + label {
+    background: red;
+
+}*/
+
+.form-floating > input + label:after {
+   background: transparent !important;
+}

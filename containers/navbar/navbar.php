@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg fixed-top bg-light navbar-light">
+<nav  class=" navbar navbar-expand-lg fixed-top bg-light navbar-light">
   
   <div class="container">
     <a class=" ms-3 navbar-brand" href="index.php">
@@ -41,8 +41,8 @@
         <li class="nav-item aUnL">
           <a class="nav-link mx-3" href="index.php#contact">Contacto</a>
         </li>  
-        <li class="nav-item mx-3 mx-lg-0 me-lg-3" > 
-          <a class="text-decoration-none" href="#!"><button id="btnEntrar" type="button" class="rounded-pill mx-md-3 col-lg-12 btn btn-lg d-grid">Entrar
+        <li class="nav-item  mx-lg-0 me-lg-3  mx-3" > 
+          <a class=" text-decoration-none d-grid m-sm-3 m-md-0 mx-auto" href="#!"><button id="btnEntrar" type="button" class="rounded-pill mx-md-3   btn btn-lg d-grid">Entrar
             </button></a>
       </li>
       </ul>

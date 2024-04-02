@@ -8,5 +8,6 @@
 
 <!-- Assambly image -->
 <section id="main" >
+    
 <h1 id="tittle" class="text-center display-1 fw-bold text-white  fw-normal">Metaverso MEDAC</h1>
 </section>

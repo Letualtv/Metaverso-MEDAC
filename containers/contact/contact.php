@@ -7,44 +7,47 @@
 
 
 <!-- contact -->
-<section id="contact" class="container">
-<form id="form" class="mx-auto">
+<section id="contact" class="container mb-4">
+    <form id="form" class="mx-auto">
+        <h2 class="text-center py-3">¡Quiero más información!</h2>
+        <div class="mb-3 form-floating mt-2">
+            <input type="text" name="" id="" class="form-control " placeholder="Nombre*" aria-describedby="helpId" />
+            <label for="exampleInputEmail1" class="form-label fw-bold">Nombre*</label>
 
-    <div class="mb-3 form-floating">
-        <input type="text" name="" id="" class="form-control " placeholder="Nombre*" aria-describedby="helpId" />
-                <label for="exampleInputEmail1" class="form-label fw-bold">Nombre*</label>
+        </div>
+        <div class="mb-3 form-floating">
+            <input type="number" class="form-control" minlength="9" maxlength="9" name="" id="" aria-describedby="helpId" placeholder="Teléfono*" />
+            <label for="exampleInputEmail1" class="fw-bold form-label">Teléfono*</label>
 
-    </div>
-    <div class="mb-3 form-floating">
-        <input type="number" class="form-control" minlength="9" maxlength="9" name="" id="" aria-describedby="helpId" placeholder="Teléfono*" />
-                <label for="exampleInputEmail1" class="fw-bold form-label">Teléfono*</label>
+        </div>
+        <div class="mb-3 form-floating">
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Correo electrónico*" aria-describedby="emailHelp">
+            <label for="exampleInputEmail1" class="form-label fw-bold ">Correo electrónico*</label>
+        </div>
+        <div class="mb-3 form-floating">
+            <input type="number" class="form-control" name="" id="" aria-describedby="helpId" minlength="5" maxlength="5" placeholder="Código postal*" />
+            <label for="exampleInputEmail1" class="fw-bold form-label">Código postal*</label>
 
-    </div>
-    <div class="mb-3 form-floating">
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Correo electrónico*" aria-describedby="emailHelp">
-        <label for="exampleInputEmail1" class="form-label fw-bold ">Correo electrónico*</label>
-    </div>
-    <div class="mb-3 form-floating">
-        <input type="number" class="form-control" name="" id="" aria-describedby="helpId" minlength="5" maxlength="5" placeholder="Código postal*" />
-                <label for="exampleInputEmail1" class="fw-bold form-label">Código postal*</label>
+        </div>
+        <div class="mb-3 form-floating">
+            <textarea class="form-control" name="" id="" placeholder="Pregunta" rows="3"></textarea>
+            <label for="exampleInputEmail1" class="form-label">Pregunta</label>
 
-    </div>
-    <div class="mb-3 form-floating">
-        <textarea class="form-control" name="" id="" placeholder="Pregunta" rows="3"></textarea>
-                <label for="exampleInputEmail1" class="form-label">Pregunta</label>
+        </div>
 
-    </div>
-    
-    <div class="mb-3 form-chec">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Al pulsar el botón, aceptas nuestra <a target="_blank" href="https://medac.es/politica-de-privacidad">Política de privacidad</a>
-</label>
-    </div>
-    <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Consiento en recibir comunicaciones comerciales de las empresas integrantes del Grupo Educa Holdco
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class=" ps-1 form-check-label" for="exampleCheck1">Al pulsar el botón, aceptas nuestra <a class="text-body" target="_blank" href="https://medac.es/politica-de-privacidad">Política de privacidad</a>
+            </label>
+        </div>
+        <div class=" form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="text-body ps-1 form-check-label" for="exampleCheck1">Consiento en recibir comunicaciones comerciales de las empresas integrantes del Grupo Educa Holdco
 
-</label>
-    </div>
-    <button type="submit" type="button" class=" btnEntrar rounded-pill">Solicitar información</button>
-</form></section>
+            </label>
+        </div>
+        <div class="py-4">
+        <button type="submit" type="button" id="sfButton" class="btn btn-lg align-end  rounded-pill">Solicitar información</button>
+        </div>
+    </form>
+</section>
