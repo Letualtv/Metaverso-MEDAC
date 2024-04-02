@@ -11,3 +11,7 @@
     background-color: var(--acento-hover);
     color: var(--secundario);
   }
+
+  #form {
+    max-width: 600px;
+  }
