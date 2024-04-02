@@ -1,5 +1,5 @@
 /* Parametros principales de nav-item */
-.navbar-light .navbar-nav .nav-link {
+.navbar-nav .nav-link {
   cursor: pointer;
   color: var(--primary-600);
   font-size: 1.2rem;
@@ -12,7 +12,7 @@
   cursor: pointer;
   color: var(--principal);
 }
-.navbar-light .navbar-nav .nav-link::after {
+.aUnL::after {
   content: "";
   display: block;
   height: 1.7px;
@@ -22,7 +22,7 @@
   transition: transform .20s;
 
 }
-.navbar-light .navbar-nav .nav-link:hover::after {
+.aUnL:hover::after {
   transform: scale(1.05, 1);
 }
 

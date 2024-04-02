@@ -16,13 +16,6 @@
 
 <body>
 
-<!-- 2 Nuevas páginas
-- Quienes somos 
-- Información
-
-
-
--->
 
 
 
@@ -35,7 +28,6 @@
         <?php require('./containers/gallery/gallery.css') ?>
         <?php require('./containers/footer/footer.css') ?>
         <?php require('./containers/carousel/carousel.css') ?>
-        <?php require('./containers/contact/contact.css') ?>
         <?php require('app.css') ?>
     </style>
 
@@ -45,11 +37,7 @@
     <!-- ENLACE COMPONENTES -->
 
     <?php require('./containers/navbar/navbar.php') ?>
-    <?php require('./containers/main/main.php') ?>
-    <?php require('./containers/gallery/gallery.php') ?>
-    <?php require('./containers/video/video.php') ?>
-    <?php require('./containers/carousel/carousel.php') ?>
-    <?php require('./containers/contact/contact.php') ?>
+
     <?php require('./containers/footer/footer.php') ?>
 
 

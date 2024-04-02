@@ -8,7 +8,7 @@
 <nav class="navbar navbar-expand-lg fixed-top bg-light navbar-light">
   
   <div class="container">
-    <a class=" ms-3 navbar-brand" href="#main">
+    <a class=" ms-3 navbar-brand" href="index.php">
       <img class="d-inline-block align-text-top " src="assets\logo-fundacion\FUNDACION_MEDAC_imagotipo_horizontal_azul_RGB.svg" alt="Logotipo de MEDAC" loading="lazy" /></a>
 
     <button id="btnHamburger" class="navbar-toggler col-2 py-3 me-3" type="button" data-bs-toggle="collapse" data-bs-target="#n_bar" aria-controls="n_bar" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,20 +17,29 @@
 
     <div class="collapse navbar-collapse " id="n_bar">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item ">
-          <a class="nav-link mx-3" href="#main">Inicio</a>
+        <li class="nav-item aUnL ">
+          <a class="nav-link mx-3" href="index.php">Inicio</a>
         </li>        
-        <li class="nav-item">
+        <li class="nav-item aUnL">
           <a class="nav-link mx-3" href="#!">Visita virtual</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link mx-3" href="#gallery">Galería </a>
+        <li class="nav-item aUnL">
+          <a class="nav-link mx-3" href="index.php#gallery">Galería </a>
         </li>
-        <li class="nav-item ">
-          <a class="nav-link mx-3" href="#video">Trailer</a>
+        <li class="nav-item aUnL">
+          <a class="nav-link mx-3" href="index.php#video">Trailer</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link mx-3" href="#!">Contacto</a>
+        <li class="nav-item dropdown aUnL">
+          <a class="nav-link dropdown-toggle mx-3" data-bs-toggle="dropdown" >
+            Acerca de
+          </a>
+          <ul class="dropdown-menu ">
+            <li><a class="dropdown-item" href="quienessomos.php">Quienes somos</a></li>
+            <li><a class="dropdown-item" href="masinformacion.php">Más información</a></li>
+          </ul>
+        </li>
+        <li class="nav-item aUnL">
+          <a class="nav-link mx-3" href="index.php#contact">Contacto</a>
         </li>  
         <li class="nav-item mx-3 mx-lg-0 me-lg-3" > 
           <a class="text-decoration-none" href="#!"><button id="btnEntrar" type="button" class="rounded-pill mx-md-3 col-lg-12 btn btn-lg d-grid">Entrar

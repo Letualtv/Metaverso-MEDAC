@@ -1,0 +1,13 @@
+.btnEntrar  {
+    background-color: var(--acento);
+
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--secundario);
+  }
+
+  .btnEntrar:hover {
+    background-color: var(--acento-hover);
+    color: var(--secundario);
+  }
