@@ -1,5 +1,4 @@
-/* Tamaño */
-
+/* Imagen*/
 #main {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("assets/assembly/Salon1.png");
@@ -38,5 +37,25 @@
 #tittle:hover:after {
   transform: scale(1.1, 1);
 }
+
+/* Tarjetas */
+#bgcard {
+  background: var(--primary-50);
+  padding: 0 24px;
+}
+
+#tittlecard{
+  position: relative;
+  top: -1.25em;
+  display: inline-block;
+  margin-bottom: -1.25em;
+  padding: 0 4px;
+  color: var(--principal);
+}
+
+#contentcard {
+  margin-top: -.7em;
+}
+
 
 
