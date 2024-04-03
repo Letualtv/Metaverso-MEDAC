@@ -48,8 +48,8 @@
 
 
             <div class="mb-3 form-floating form-item">
-                <input class="form-control" name="" id="" placeholder="Pregunta" rows="3"></input>
-                <label for="exampleInputEmail1" class="form-label">Pregunta</label>
+                <input class="form-control" type="text" name="" id="" placeholder="Pregunta" rows="3"></input>
+                <label for="exampleInputEmail1" type="s" class="form-label">Pregunta</label>
                 </div>
                 <div class="mb-3 form-check">
                     <input type="checkbox" class="form-check-input" id="check1">
