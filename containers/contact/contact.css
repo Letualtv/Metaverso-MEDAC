@@ -1,37 +1,93 @@
-#sfButton  {
-    background-color: var(--acento);
-padding: 5px 30px;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: var(--secundario);
-  }
+#sfButton {
+  background-color: var(--acento);
+  padding: 5px 30px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--secundario);
+}
 
-  #sfButton:hover {
-    background-color: var(--acento-hover);
-    color: var(--secundario);
-  }
+#sfButton:hover {
+  background-color: var(--acento-hover);
+  color: var(--secundario);
+}
 
-  #form {
-    max-width: 550px;
-  }
-  .form-check-label, .form-check-label a {
-    font-size: 0.9rem;
-  }
- /* .form-floating input {
-    border-bottom: 1px solid black;
-  }
-   .form-floating input:focus + label{
-    text-decoration: none;
-    border-bottom: 1px solid var(--acento);
-    background-color: var(--primary-200);
-    
-  } 
-  .form-floating > input:not(:focus):placeholder-shown + label {
-    background: red;
 
-}*/
+
+
+
+.form-check-label,
+.form-check-label a {
+  font-size: 0.9rem;
+}
 
 .form-floating > input + label:after {
-   background: transparent !important;
+  background: transparent !important;
+
+  opacity: 1;
+  
+}
+
+
+.form-item {
+  margin: 2em 0;
+
+}
+
+.form-control:placeholder-shown {
+  width: 100%;
+  height: 3em;
+  font-family: "Noto Sans";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #f2f2f2;
+  background-clip: padding-box;
+  border: 0.125rem solid var(--principal);
+  border-radius: 0;
+
+}
+
+.form-control {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  padding-left: 0;
+
+}
+
+.form-control:placeholder-shown:focus {
+  background-color: #e9f7f6;
+  outline: 0;
+  border-bottom: 0.125rem solid var(--acento);
+  border-radius: 0;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0 0 0 0 #e9f7f6;
+  box-shadow: 0 0 0 0 #e9f7f6;
+
+}
+
+#check1 {
+border-radius: 0;
+border: 0.125rem solid #666;
+padding: 2px;
+cursor: pointer;
+box-shadow: none;
+
+}
+#check1:checked {
+  border:  transparent;
+  background-color: var(--principal);
+}
+#check2 {
+  border-radius: 0;
+  border: 0.125rem solid #666;
+  padding: 2px;
+  cursor: pointer;
+box-shadow: none;
+}
+#check2:checked{
+  border:transparent;
+  background-color: var(--principal);
+
 }
