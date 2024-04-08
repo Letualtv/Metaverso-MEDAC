@@ -39,10 +39,10 @@
 
     <!-- ENLACE COMPONENTES -->
 
-    <?php require('./containers/navbar/navbar.php') ?>
-    <?php require('./containers/aside/aside.php') ?>
+    <?php require('./containers/navbar/navbar.html') ?>
+    <?php require('./containers/aside/aside.html') ?>
 
-    <?php require('./containers/footer/footer.php') ?>
+    <?php require('./containers/footer/footer.html') ?>
 
 
 </body>
