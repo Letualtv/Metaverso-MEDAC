@@ -9,38 +9,25 @@
     <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
     <link rel="icon" href="assets\logo-vector\MEDAC_isotipo_azul_RGB.svg" type="image/x-icon">
 
-</head>
-
-
-
-
-<body >
-
-
-<!-- 2 Nuevas páginas
-- Quienes somos 
-- Información
-
-
-
--->
-
-
-
     <!-- ENLACE ESTILOS -->
 
-    <style>
-        <?php require('./containers/navbar/navbar.css') ?>
-        <?php require('./containers/main/main.css') ?>    
-        <?php require('./containers/gallery/gallery.css') ?>        
-        <?php require('./containers/carousel/carousel.css') ?>
-        <?php require('./containers/video/video.css') ?>
-        <?php require('./containers/contact/contact.css') ?>
-        <?php require('./containers/aside/aside.css') ?>
-        <?php require('./containers/footer/footer.css') ?>
-        <?php require('app.css') ?>
-    </style>
+    <link rel="stylesheet" href="containers/navbar/navbar.css">
+    <link rel="stylesheet" href="containers/main/main.css">
+    <link rel="stylesheet" href="containers/gallery/gallery.css">
+    <link rel="stylesheet" href="containers/carousel/carousel.css">
+    <link rel="stylesheet" href="containers/video/video.css">
+    <link rel="stylesheet" href="containers/contact/contact.css">
+    <link rel="stylesheet" href="containers/aside/aside.css">
+    <link rel="stylesheet" href="containers/footer/footer.css">
+    <link rel="stylesheet" href="app.css">
 
+<body>
+
+
+
+    <section id="main">
+        <h1 id="tittle" class="text-center display-1 fw-bold text-white  fw-normal">Salón de actos</h1>
+    </section>
 
 
 
@@ -50,7 +37,7 @@
     <?php require('./containers/main/main.html') ?>
     <?php require('./containers/gallery/gallery.html') ?>
     <?php require('./containers/carousel/carousel.html') ?>
-    <?php require('./containers/video/video.html') ?>   
+    <?php require('./containers/video/video.html') ?>
     <?php require('./containers/contact/contact.html') ?>
     <?php require('./containers/footer/footer.html') ?>
 

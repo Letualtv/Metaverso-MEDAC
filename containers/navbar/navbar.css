@@ -31,16 +31,6 @@ nav {
   background-color: var(--secundario);
 }
 
-/* Configuracion icono hamburger */
-#btnHamburger {
-  background-color: var(--principal);
-
-  
-}
-
-#iHamburger {
-  color: var(--secundario);
-}
 
 /* Boton entrar al metaverso */
 
