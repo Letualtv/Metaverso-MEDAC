@@ -25,11 +25,10 @@
 
 
 
+
     <section id="main">
         <h1 id="tittle" class="text-center display-1 fw-bold text-white  fw-normal">Salón de actos</h1>
     </section>
-
-
 
     <!-- ENLACE COMPONENTES -->
 
@@ -40,6 +39,7 @@
     <?php require('./containers/video/video.html') ?>
     <?php require('./containers/contact/contact.html') ?>
     <?php require('./containers/footer/footer.html') ?>
+
 
 
 </body>
