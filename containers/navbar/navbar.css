@@ -4,7 +4,7 @@
   color: var(--primary-600);
   font-size: 1.2rem;
   font-weight: bold;
-  display: table;
+
 }
 
 /* Animacion subrayado texto de nav-item */
@@ -48,12 +48,7 @@ nav {
     color: var(--secundario);
   }
   
-.navbar-brand img {
-  width: 100%;
-  height: auto;
-  max-height: 65px;
 
-}
 
 @media(max-width: 300px){ 
   .navbar-brand img {

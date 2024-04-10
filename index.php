@@ -21,18 +21,25 @@
     <link rel="stylesheet" href="containers/footer/footer.css">
     <link rel="stylesheet" href="containers/cards/cards.css">
     <link rel="stylesheet" href="app.css">
-
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
 <body>
 
 
 
+    <?php require('./containers/navbar/navbar.html') ?>
     <section id="main">
         <button id="tittle" class="btn"> ENTRA AL METAVERSO</button>
     </section>
 
     <!-- ENLACE COMPONENTES -->
 
-    <?php require('./containers/navbar/navbar.html') ?>
+
     <?php require('./containers/cards/cards.html') ?>
     <?php require('./containers/gallery/gallery.html') ?>
     <?php require('./containers/carousel/carousel.html') ?>
