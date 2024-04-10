@@ -24,7 +24,7 @@
 }
 .aUnL:hover::after {
   transform: scale(1.05, 1);
-}
+} 
 
 /* configuracion general navbar */
 nav {

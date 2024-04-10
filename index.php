@@ -34,7 +34,7 @@
 
     <?php require('./containers/navbar/navbar.html') ?>
     <section id="main">
-        <button id="tittle" class="btn"> ENTRA AL METAVERSO</button>
+        <button id="tittle" class="position-absolute top-50 start-50 translate-middle"> ENTRAR AL METAVERSO</button>
     </section>
 
     <!-- ENLACE COMPONENTES -->
