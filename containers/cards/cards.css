@@ -1,0 +1,16 @@
+#cards-row div:nth-child(1){
+    background-color: var(--principal);
+}
+#cards-row div:nth-child(2){
+    background-color: var(--primary-700);
+}
+#cards-row div:nth-child(3){
+    background-color: var(--primary-600);
+}
+#cards-row div:nth-child(4){
+    background-color: var(--primary-500);
+}
+#cards-row div {
+    padding: 2rem 4rem;
+    color: white;
+}

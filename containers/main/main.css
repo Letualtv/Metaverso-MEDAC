@@ -5,26 +5,33 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: 1px 1px 4px black;
+
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 1rem 2.5rem;
+  border-radius: 1.5rem;
+  background-color: var(--principal);
+  color: var(--secundario);
+  box-shadow: 0px 0px 60px var(--primary-900);
+  
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: "Open Sans", sans-serif;
+
+  transition: 0.6s;
 }
 
-#tittle:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 0.3rem;
-  bottom: 0;
-  left: 0;
-  box-shadow: 1px 1px 4px black;
-
-  background-color: white;
-  transform: scale(0, 1);
-  transform-origin: center;
-  transition: transform 0.5s ease;
+#tittle:hover {
+background: rgb(2,29,78);
+background: linear-gradient(270deg, rgba(2, 29, 78, 1) 0%, var(--acento) 40%);
+color: var(--principal);
 }
-
-#tittle:hover:after {
-  transform: scale(1.1, 1);
+#tittle:active {
+    scale: 0.92;
+  
 }
 
 /* Tarjetas */

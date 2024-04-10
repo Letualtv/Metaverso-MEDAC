@@ -19,21 +19,21 @@
     <link rel="stylesheet" href="containers/contact/contact.css">
     <link rel="stylesheet" href="containers/aside/aside.css">
     <link rel="stylesheet" href="containers/footer/footer.css">
+    <link rel="stylesheet" href="containers/cards/cards.css">
     <link rel="stylesheet" href="app.css">
 
 <body>
 
 
 
-
     <section id="main">
-        <h1 id="tittle" class="text-center display-1 fw-bold text-white  fw-normal">Salón de actos</h1>
+        <button id="tittle" class="btn"> ENTRA AL METAVERSO</button>
     </section>
 
     <!-- ENLACE COMPONENTES -->
 
     <?php require('./containers/navbar/navbar.html') ?>
-    <?php require('./containers/main/main.html') ?>
+    <?php require('./containers/cards/cards.html') ?>
     <?php require('./containers/gallery/gallery.html') ?>
     <?php require('./containers/carousel/carousel.html') ?>
     <?php require('./containers/video/video.html') ?>
