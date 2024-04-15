@@ -4,9 +4,7 @@
   color: var(--primary-600);
   font-size: 1.2rem;
   font-weight: bold;
-
 }
-
 
 /* Animacion subrayado texto de nav-item */
 .navbar-light .navbar-nav .nav-link:hover {
@@ -20,36 +18,32 @@
   background-color: var(--principal);
   transform: scale(0, 1);
   transform-origin: left;
-  transition: transform .20s;
-
+  transition: transform 0.2s;
 }
 .aUnL:hover::after {
   transform: scale(1.05, 1);
-} 
+}
 
 /* configuracion general navbar */
 nav {
   background-color: var(--secundario);
 }
 
-
 /* Boton entrar al metaverso */
 
-  #btnEntrar  {
-    background-color: var(--acento);
+#btnEntrar {
+  background-color: var(--acento);
 
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: var(--secundario);
-  }
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--secundario);
+}
 
-  #btnEntrar:hover {
-    background-color: var(--acento-hover);
-    color: var(--secundario);
-  }
-  
-
+#btnEntrar:hover {
+  background-color: var(--acento-hover);
+  color: var(--secundario);
+}
 
 /* @media(max-width: 300px){ 
   .navbar-brand img {
@@ -59,5 +53,3 @@ nav {
   
   }
 } */
-
-  
