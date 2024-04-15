@@ -7,6 +7,7 @@
 
 }
 
+
 /* Animacion subrayado texto de nav-item */
 .navbar-light .navbar-nav .nav-link:hover {
   cursor: pointer;
@@ -50,13 +51,13 @@ nav {
   
 
 
-@media(max-width: 300px){ 
+/* @media(max-width: 300px){ 
   .navbar-brand img {
     width: 100%;
     height: auto;
     max-height: 55px;
   
   }
-}
+} */
 
   
