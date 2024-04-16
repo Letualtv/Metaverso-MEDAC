@@ -1,44 +1,38 @@
-.cardContainer div:nth-child(1){
+/* Color de fondo de las tarjetas, espaciado y color de letra */
+.cardContainer .cards-row:nth-child(1){
     background-color: var(--principal);
 }
-.cardContainer div:nth-child(2){
+.cardContainer .cards-row:nth-child(2){
     background-color: var(--primary-700);
 }
-.cardContainer div:nth-child(3){
+.cardContainer .cards-row:nth-child(3){
     background-color: var(--primary-600);
 }
-.cardContainer div:nth-child(4){
+.cardContainer .cards-row:nth-child(4){
     background-color: var(--primary-500);
 }
 .cards-row {
-    padding: 3em 4em;
     color: white;
+    padding: 4em 3em;
 }
-
+/* Linea separadora */
 .cardsSeparator {
-
-    margin: 1em 0;
         border-top: 8px solid var(--acento);
         height: 2px;
         max-width: 82px;
-         
 }
 .cardTitle {
-    font-weight: 600;
+    font-size: 2.6rem;
+    font-weight: 700;
+    
 }
-.cardsLinks {
-    text-decoration: none;
-cursor: pointer;
-color: var(--acento);
-text-shadow: 0.5px 0.5px 1px black;
-font-size: 1rem;
-font-weight: 600;
+.cardText {
+    font-size: 1.5rem ;
+    color: white;
+    font-weight: 700;
 }
-.cardsLinks:hover i{
-    text-decoration: underline;
-    color: var(--acento-hover);
-}
-.cardsLinks:hover {
-    text-decoration: underline;
-    color: var(--acento-hover);
+.cardNumber {
+    color: #66cbc4;
+    font-size: 3rem;
+    font-weight: 700;
 }
