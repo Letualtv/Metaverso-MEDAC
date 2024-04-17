@@ -1,7 +1,6 @@
 #footer {
   background-color: var(--principal);
   color: var(--acento-hover);
-  min-height: 30vh;
 }
 
 .hFooter {
