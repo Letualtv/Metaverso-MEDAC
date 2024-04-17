@@ -15,24 +15,34 @@
     color: white;
     padding: 4em 3em;
 }
+.cards-row:not(.col-12){
+    padding: 4em;
+}
+
 /* Linea separadora */
 .cardsSeparator {
         border-top: 8px solid var(--acento);
         height: 2px;
         max-width: 82px;
 }
+
+/* Estilos de texto */
 .cardTitle {
-    font-size: 2.6rem;
+    font-size: 2.6em;
     font-weight: 700;
-    
 }
+
 .cardText {
     font-size: 1.5rem ;
     color: white;
-    font-weight: 700;
+    font-weight: 600 !important;
+    padding: 1.5em 0.7em;
+}
+.cardText:not(div){
+    padding: 0;
 }
 .cardNumber {
     color: #66cbc4;
-    font-size: 3rem;
+    font-size: 4rem !important;
     font-weight: 700;
 }
