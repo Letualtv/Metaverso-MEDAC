@@ -1,68 +1,89 @@
 :root {
+  /*Color palette*/
+  --primary-900: #010304;
+  --primary-700: #364d63;
+  --primary-600: #476685;
+  --primary-500: #5980a6;
+  --primary-400: #7a99b8;
+  --primary-300: #9cb3c9;
+  --primary-200: #bdccdb;
+  --primary-100: #dee5ed;
+  --primary-50: #f0f4f7;
 
-    /*Color palette*/
---primary-900: #010304;
---primary-700: #364D63;
---primary-600: #476685;
---primary-500: #5980A6;
---primary-400: #7A99B8;
---primary-300: #9CB3C9;
---primary-200: #BDCCDB;
---primary-100: #DEE5ED;
---primary-50:  #F0F4F7;
-
---principal: #002E4C;
---secundario: #FFFFFF;
---acento: #00A89C;
---acento-hover: #33b9b0;
-
-
+  --principal: #002e4c;
+  --secundario: #ffffff;
+  --acento: #00a89c;
+  --acento-hover: #33b9b0;
 }
 
 * {
-        /*Font family*/
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /*Font family*/
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+#titleButton {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 0.6rem 2rem;
+  background-color: var(--principal);
+  color: var(--secundario);
+  box-shadow: 0px 0px 30px var(--primary-600);
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  transition: 0.6s;
+}
 
-  #titleButton {
-
-    cursor: pointer;
-    border: none;
-    outline: none;
-    padding: 0.8rem 2.2rem;
-    border-radius: 1.5rem;
-    background-color: var(--principal);
-    color: var(--secundario);
-    box-shadow: 0px 0px 60px var(--primary-900);
-    
-    text-transform: uppercase;
-    font-size: 1.4rem;
-    font-weight: bolder;
-    letter-spacing: 1px;
-    transition: 0.6s;
-  
-  }
-  
-  #titleButton:hover {
-  background: rgb(2,29,78);
+#titleButton:hover {
+  background: rgb(2, 29, 78);
   background: linear-gradient(270deg, rgba(2, 29, 78, 1) 0%, var(--acento) 40%);
   color: var(--principal);
-  }
-  #titleButton:active {
-      scale: 0.99;
-    
-  } 
+}
 
-  .mainContent h1 {
-font-size: 3rem;
-color: var(--principal);
-font-weight: 700;
+.h1 {
+  color: var(--principal);
+  font-weight: 700;
+}
+#mainContainer {
+  background-color: #e2ecf5;
+}
+.imgMeta {
+  max-height: 90vh;
+  mask-image: linear-gradient(to top, transparent 1%, black 10%);
+  animation: fadeIn 2s ease;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    filter: blur(20px);
   }
-  #mainContainer {
-    background-color: #E2ECF5;
+  10% {
+opacity: 1;
+filter: brightness(2), blur(10px);
   }
-  .imgMeta{
-    max-height: 90vh;
-    mask-image: linear-gradient(to top, transparent 1%, black 10%);
-  }
+}
+
+/* Botón desplazamieto */
+.cmn-divfloat {
+  position: fixed;
+  bottom: 75px;
+  right: 15px;
+  display: none;
+  background-color: var(--acento);
+  border-radius: 30px;
+}
+
+.cmn-btncircle {
+  width: 40px;
+  height: 40px;
+  padding: 6px 0px;
+  text-align: center;
+}
+.cmn-btncircle i {
+  font-size: 1.2rem;
+}
+.cmn-divfloat:hover {
+  background-color: var(--acento-hover);
+}

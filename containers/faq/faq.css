@@ -23,9 +23,7 @@
 
 
 
-#aside{
-  padding: 3rem 0;
-}
+
 
 .tarjeta {
 
@@ -33,6 +31,7 @@
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
    border-color: transparent;
+   margin: 3em 6em;
 }
 
 .title-outside {
