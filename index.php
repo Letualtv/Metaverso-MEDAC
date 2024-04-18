@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="containers/navbar/navbar.css">
     <link rel="stylesheet" href="containers/main/main.css">
     <link rel="stylesheet" href="containers/gallery/gallery.css">
-    <link rel="stylesheet" href="containers/carousel/carousel.css">
     <link rel="stylesheet" href="containers/video/video.css">
     <link rel="stylesheet" href="containers/contact/contact.css">
     <link rel="stylesheet" href="containers/aside/aside.css">
@@ -36,7 +35,6 @@
 
     <?php require('./containers/cards/cards.html') ?>
     <?php require('./containers/gallery/gallery.html') ?>
-    <?php require('./containers/carousel/carousel.html') ?>
     <?php require('./containers/video/video.html') ?>
     <?php require('./containers/contact/contact.html') ?>
     <?php require('./containers/footer/footer.html') ?>
