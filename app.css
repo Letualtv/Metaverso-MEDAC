@@ -25,47 +25,44 @@
 }
 
 
-/* Imagen*/
-#main {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url("assets/assembly/web/Salon2.webp");
-    width: 100%;
-    height: 90vh;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-color: var(--secundario);
-  } 
-  #tittle {
+  #titleButton {
 
     cursor: pointer;
     border: none;
     outline: none;
-    padding: 1rem 2.5rem;
+    padding: 0.8rem 2.2rem;
     border-radius: 1.5rem;
     background-color: var(--principal);
     color: var(--secundario);
     box-shadow: 0px 0px 60px var(--primary-900);
     
     text-transform: uppercase;
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 1.4rem;
+    font-weight: bolder;
     letter-spacing: 1px;
-    font-family: "Open Sans", sans-serif;
     transition: 0.6s;
-    text-shadow: 0 0 1.5px  var(--secundario);
   
   }
   
-  #tittle:hover {
-    text-shadow: 0 0 5px  var(--acento-hover);
-
+  #titleButton:hover {
   background: rgb(2,29,78);
   background: linear-gradient(270deg, rgba(2, 29, 78, 1) 0%, var(--acento) 40%);
   color: var(--principal);
   }
-  #tittle:active {
+  #titleButton:active {
       scale: 0.99;
     
+  } 
+
+  .mainContent h1 {
+font-size: 3rem;
+color: var(--principal);
+font-weight: 700;
+  }
+  #mainContainer {
+    background-color: #E2ECF5;
+  }
+  .imgMeta{
+    max-height: 90vh;
+    mask-image: linear-gradient(to top, transparent 1%, black 10%);
   }
