@@ -1,5 +1,5 @@
 #card-tittle {
-    color: var(--primary-800);  
+    color: var(--principal);  
 }
 
 #gallery {
@@ -7,3 +7,6 @@
     width: 100%;
 }
 
+.blue {
+    color: var(--principal);
+}

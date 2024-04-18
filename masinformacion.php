@@ -39,7 +39,6 @@
 
     <?php require('./containers/navbar/navbar.html') ?>
     <?php require('./containers/aside/aside.html') ?>
-
     <?php require('./containers/footer/footer.html') ?>
 
 
