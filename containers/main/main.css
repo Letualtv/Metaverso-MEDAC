@@ -1,37 +1,42 @@
-
-
-
-/* Tarjetas */
-#bgcard {
-  background: var(--primary-50);
-  padding: 0 24px;
+#titleButton {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: var(--principal);
+  color: var(--secundario);
+  box-shadow: 0px 0px 30px var(--primary-600);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.6s;
 }
 
-#tittlecard{
-  position: relative;
-  top: -1.25em;
-  display: inline-block;
-  margin-bottom: -1.25em;
-  padding: 0 4px;
+#titleButton:hover {
+  background: rgb(2, 29, 78);
+  background: linear-gradient(270deg, rgba(2, 29, 78, 1) 0%, var(--acento) 40%);
   color: var(--principal);
 }
 
-#contentcard {
-  margin-top: -.7em;
-
+.h1 {
+  color: var(--principal);
+  font-weight: 700;
 }
-.somos-img{
-  position: relative;
-  top: -25px;
-  width: fit-content;
+#mainContainer {
+  background-color: #e2ecf5;
 }
-/* @media(max-width: 300px){ 
-  .navbar-brand img {
-    width: 100%;
-    height: auto;
-    max-height: 55px;
-  
+.imgMeta {
+  max-height: 90vh;
+  mask-image: linear-gradient(to top, transparent 1%, black 10%);
+  animation: fadeIn 2s ease;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    filter: blur(15px);
   }
-} */
+  10% {
+opacity: 1;
+filter: brightness(2), blur(7px);
+  }
+}
 
 

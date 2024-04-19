@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="containers/carousel/carousel.css">
     <link rel="stylesheet" href="containers/video/video.css">
     <link rel="stylesheet" href="containers/contact/contact.css">
-    <link rel="stylesheet" href="containers/aside/aside.css">
+    <link rel="stylesheet" href="containers/faq/faq.css">
     <link rel="stylesheet" href="containers/footer/footer.css">
     <link rel="stylesheet" href="containers/cards/cards.css">
     <link rel="stylesheet" href="app.css">
@@ -38,8 +38,7 @@
     <!-- ENLACE COMPONENTES -->
 
     <?php require('./containers/navbar/navbar.html') ?>
-    <?php require('./containers/aside/aside.html') ?>
-
+    <?php require('./containers/faq/faq.html') ?>
     <?php require('./containers/footer/footer.html') ?>
 
 
