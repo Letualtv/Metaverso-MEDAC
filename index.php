@@ -26,23 +26,7 @@
 <body id="body">
 
     <?php require('./containers/navbar/navbar.html') ?>
-
-    <section id="mainContainer" class="container-fluid">
-        <div class="row">
-            <div class="col-md-6 col-xs-12 m-auto mainContent align-middle">
-                <h1 class="h1 text-center pt-3 ">¡Sumérgete en el Metaverso!</h1>
-                <p class="text-center p-3 ">Bienvenidos al fascinante mundo del <b class="blue">Metaverso MEDAC</b> desarrollado por nuestros alumnos. <br/>
-                    Os invitamos a explorar las diversas secciones y salas que componen este innovador <b class="blue">campus virtual</b> en el que podrás disfrutar de la compañía de tus compañeros, asistir a clases, ponencias, etc.
-                <p class="text-center fw-bold blue">¡Todo sin moverte de casa!</p>
-                </p>
-                <button id="titleButton" class="btn rounded-pill mx-auto d-flex my-5">ENTRA AL METAVERSO</button>
-            </div>
-            <div class="col-md-5 col-xs-12 ">
-                <img src="assets/assembly/web/imagen1rb.png" alt="Imagen de metaverso Medac" class="img-fluid imgMeta d-flex mx-auto">
-            </div>
-        </div>
-    </section>
-
+    <?php require('./containers/main/main.html') ?>
 
   <!-- Boton desplazamiento -->
   <div id="div-totop" class="cmn-divfloat">
@@ -63,8 +47,8 @@
 
 
 
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
-<script src="script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </html>
