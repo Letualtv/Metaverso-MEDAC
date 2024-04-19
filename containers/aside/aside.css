@@ -21,27 +21,48 @@
   width: 100%;
 } */
 
-#aside {
-  height: 30vh;
-  width: 80vh;
+
+
+#aside{
+  padding: 3rem 0;
+}
+
+.tarjeta {
+
   background-color: var(--primary-100);
-  padding: 20px;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  position: relative;
-  top: 4em;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+   border-color: transparent;
 }
 
 .title-outside {
   color: black;
   font-size: larger;
   position: relative;
+
   top: -40px;
   /* width: fit-content; */
   font-weight: bolder;
   font-size: 2.1rem;
 }
-#img1{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #img1{
   max-width: 30%;
 }
  #img2{
@@ -49,7 +70,7 @@
  }
 .aText {
   color: grey;
-  /* margin: 10px; */
+  /* margin: 10px; 
 }
 
 .image-outside {
@@ -59,7 +80,7 @@
   border: 2px solid var(--primary-300);
   margin-bottom: 1rem;
 }
-
+ */
 
 
 
