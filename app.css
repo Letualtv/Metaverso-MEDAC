@@ -30,6 +30,7 @@
   display: none;
   background-color: var(--acento);
   border-radius: 30px;
+  z-index: 999;
 }
 
 .cmn-btncircle {

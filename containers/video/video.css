@@ -1,11 +1,11 @@
 #video {
-    background-color: var(--principal);
+    background-color: var(--primary-100);
 
 }
 .videoContainer video {
     max-width: 100%;
     height: auto;
 }
-.videoContainer {
+/* .videoContainer {
     max-width: 900px;
-}
+} */
