@@ -26,7 +26,7 @@
 
 ?>
 
-<p><a href="cierre.php">Cierra session</p></a>
+<p><a href="cierre.php">Cierra session</p></a> <!--Modificar la dirección del href si es a otro archivo distinto-->
 
 <p>Esto es informacion para usuarios</p>
 </body>
