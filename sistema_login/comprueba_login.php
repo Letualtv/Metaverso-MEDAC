@@ -48,7 +48,7 @@
 
         }else{
 
-            header("location:login.php");
+            header("location:login.php"); //A dónde enviar al usuario si el login no es correcto.
 
         }
 
