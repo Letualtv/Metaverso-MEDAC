@@ -12,14 +12,8 @@
     <!-- ENLACE ESTILOS -->
 
     <link rel="stylesheet" href="containers/navbar/navbar.css">
-    <link rel="stylesheet" href="containers/main/main.css">
-    <link rel="stylesheet" href="containers/gallery/gallery.css">
-    <link rel="stylesheet" href="containers/carousel/carousel.css">
-    <link rel="stylesheet" href="containers/video/video.css">
-    <link rel="stylesheet" href="containers/contact/contact.css">
     <link rel="stylesheet" href="containers/faq/faq.css">
     <link rel="stylesheet" href="containers/footer/footer.css">
-    <link rel="stylesheet" href="containers/cards/cards.css">
     <link rel="stylesheet" href="app.css">
     <link
   rel="stylesheet"
