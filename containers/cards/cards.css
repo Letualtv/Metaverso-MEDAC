@@ -16,7 +16,7 @@
     padding: 4em 3em;
 }
 .cards-row:not(.col-12){
-    padding: 4em;
+    padding: 4em 2em;
 }
 
 /* Linea separadora */
