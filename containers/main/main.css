@@ -34,9 +34,7 @@
     filter: blur(15px);
   }
   10% {
-opacity: 1;
-filter: brightness(2), blur(7px);
+    opacity: 1;
+    filter: brightness(2), blur(7px);
   }
 }
-
-

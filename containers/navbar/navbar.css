@@ -45,14 +45,13 @@ nav {
   color: var(--secundario);
 }
 
-@media(max-width: 1140px){ 
+@media (max-width: 1140px) {
   .aUnL::after {
     content: "";
     display: block;
     height: 0;
     background-color: var(--principal);
     transform: none;
-transition: none;
-  
+    transition: none;
   }
-} 
+}

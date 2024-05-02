@@ -1,37 +1,9 @@
-/* tarjetas*/
-
-/* #aside {
-  height: 70vh;
-  background-color: var(--primary-100);
-  width: 100vh;
-  margin-left: 15rem;
-}
-
-.title-outside {
-  position: relative;
-  top: -25px;
-  width: fit-content;
-  padding: 0 10px;
-  font-weight: bolder;
-  font-size: 2.5rem;
-}
-.image-outside {
-  border: 1px solid red;
-
-  width: 100%;
-} */
-
-
-
-
-
 .tarjeta {
-
   background-color: var(--primary-100);
   border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
-   border-color: transparent;
-   margin: 3em 6em;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-color: transparent;
+  margin: 3em 6em;
 }
 
 .title-outside {
@@ -44,55 +16,3 @@
   font-weight: bolder;
   font-size: 2.1rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* #img1{
-  max-width: 30%;
-}
- #img2{
-  width: 320px;
- }
-.aText {
-  color: grey;
-  /* margin: 10px; 
-}
-
-.image-outside {
-  position: absolute;
-  right: -50px;
-  bottom: -1.3em;
-  border: 2px solid var(--primary-300);
-  margin-bottom: 1rem;
-}
- */
-
-
-
-/* 
-@media(min-width: 800px){ 
-    .image-outside {
-        border: 1px solid red;
-        background-color: black;
-        position: relative;
-        bottom: -130px;
-        right: -100px;
-        max-width: 250px;
-  
-      }  
-  } 
-  */

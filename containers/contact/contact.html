@@ -1,76 +1,72 @@
 <!-- contact -->
 <section id="contact" class="container py-4">
     <div class="row ">
-        <form data-cta="710" class="formulario mx-auto  col-lg-5 col-sm-12 col-md-8" id="formulario"
-            data-drupal-selector="lead-form-solicita-info-tipo-1" action="datosformulario.php" method="post"
-            id="lead-form-solicita-info-tipo-1" accept-charset="UTF-8" data-gtm-form-interact-id="0"
-            siq_id="autopick_5318">
-            <h1 class="text-center py-3" id="h2t">¡Quiero más información!</h1>
-            <div class=" form-item js-form-type-textfield form-item-name -name form-floating form-group">
 
-                <input data-drupal-selector="name" type="text" id="name" name="name" value="" size="60" maxlength="128"
-                    placeholder="Nombre" class="required form-control has-value" required="required"
-                    aria-required="true" data-gtm-form-interact-field-id="0">
+        <form class="formulario mx-auto col-lg-5 col-sm-12 col-md-8" id="contactForm">
 
-                <label for="name" class=" form-required">Nombre*</label>
+            <h1 class="text-center py-3">¡Quiero más información!</h1>
 
+
+
+            <div class="form-item form-floating form-group">
+                <input type="text" id="nombre" name="nombre"  size="60" maxlength="128" placeholder="Nombre"
+                    class="required form-control has-value ps-3" required="required" aria-required="true">
+                <label for="nombre" class="form-required">Nombre*</label>
             </div>
-            <div class=" form-item js-form-type-tel form-item-phone m-phone form-floating form-group">
 
-                <input minlength="9" maxlength="9" pattern="(\d{9})" data-drupal-selector="phone" type="tel" id="phone"
-                    name="phone" value="" size="30" placeholder="Teléfono" class=" form-tel required form-control"
-                    required="required" aria-required="true">
-
-                <label for="phone" class="form-required">Teléfono*</label>
-
-
-
-            </div>
-            <div class=" form-item js-form-type-email form-item-email form-floating form-group">
-
-                <input pattern="[a-z0-9\._%+\-]+@[a-z0-9\.\-]+\.[a-z]{2,7}$" data-drupal-selector="email" type="email"
-                    id="email" name="email" value="" size="60" maxlength="254" placeholder="Correo electrónico"
-                    class="form-email required form-control" required="required" aria-required="true">
-
-                <label for="email" class=" form-required">Correo electrónico*</label>
-
-
-
-            </div>
-            <div class=" form-item   form-floating form-group">
-
-                <input minlength="4" maxlength="5" pattern="\d*" data-drupal-selector="cp" type="text" id="cp" name="cp"
-                    value="" size="60" placeholder="Código postal" class="required form-control" required="required"
+            <div class="form-item form-floating form-group">
+                <input id="telefono" minlength="9" maxlength="9" pattern="(\d{9})" type="tel" name="telefono" 
+                    size="30" placeholder="Teléfono" class=" form-tel required form-control ps-3" required="required"
                     aria-required="true">
-
-                <label for="cp" class=" form-required">Código postal*</label>
-
+                <label for="telefono" class="form-required">Teléfono*</label>
             </div>
 
+            <div class="form-item form-floating form-group">
+                <input pattern="[a-z0-9\._%+\-]+@[a-z0-9\.\-]+\.[a-z]{2,7}$" type="text" id="email" name="email"
+                     size="60" maxlength="254" placeholder="Correo electrónico"
+                    class="form-email required form-control ps-3" required="required" aria-required="true">
+                <label for="email" class="form-required">Correo electrónico*</label>
+            </div>
+
+            <div class="form-item form-floating form-group">
+                <input minlength="4" maxlength="5" pattern="\d*" type="text" id="cp" name="cp"  size="60"
+                    placeholder="Código postal" class="required form-control ps-3" aria-required="true">
+                <label for="cp" class="form-required">Código postal*</label>
+            </div>
 
             <div class="mb-3 form-floating form-item">
-                <input class="form-control" type="text" name="pregunta" id="pregunta" placeholder="Pregunta"
-                    rows="3"></input>
-                <label for="pregunta" type="s" class="form-label">Pregunta</label>
+                <input id="pregunta" class="required form-control ps-3" type="text" name="pregunta"
+                    placeholder="Pregunta" rows="3"></input>
+                <label for="pregunta" type="s" class="form-label">Pregunta*</label>
             </div>
+
             <div class="mb-3 form-check">
-                <input type="checkbox" required class="form-check-input " id="check1">
-                <label class=" ps-1 form-check-label " for="check1">Al pulsar el botón, aceptas nuestra <a
+                <input type="checkbox" required class="form-check-input " name="check1" id="check1">
+                <label class="ps-1 form-check-label " for="check1">Al pulsar el botón, aceptas nuestra <a
                         class="text-body" target="_blank" href="https://medac.es/politica-de-privacidad">Política de
                         privacidad</a>*
                 </label>
             </div>
-            <div class=" form-check">
-                <input type="checkbox" class="form-check-input" id="check2">
-                <label class="text-body ps-1 form-check-label" for="check1">Consiento en recibir comunicaciones
-                    comerciales de las empresas integrantes del Grupo Educa Holdco
 
+            <div class=" form-check">
+                <input type="checkbox" class="form-check-input" name="check2" id="check2">
+                <label value="Si" class="text-body ps-1 form-check-label" for="check2">Consiento en recibir
+                    comunicaciones
+                    comerciales de las empresas integrantes del Grupo Educa Holdco
                 </label>
             </div>
+
+            <div class="alert alert-success p-2 text-center" role="alert">
+                Formulario enviado, gracias por ponerse en contacto con el equipo de <b class="blue">MEDACverso</b>.
+                              </div>
+
             <div class="py-4">
-                <button type="submit" type="button" id="sfButton" class="btn btn-lg align-end  rounded-pill">Solicitar
+                <button type="submit" id="sfButton" class="btn btn-lg rounded-pill">Solicitar
                     información</button>
             </div>
+
         </form>
+
     </div>
+
 </section>

@@ -98,3 +98,6 @@
 #h2t {
   color: var(--principal);
 }
+.alert{
+  display: none;
+}
