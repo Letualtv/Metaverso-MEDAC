@@ -1,11 +1,7 @@
 #video {
-    background-color: var(--primary-100);
-
+  background-color: var(--primary-100);
 }
 .videoContainer video {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
-/* .videoContainer {
-    max-width: 900px;
-} */

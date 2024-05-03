@@ -1,12 +1,10 @@
 #card-tittle {
-    color: var(--principal);  
+  color: var(--principal);
 }
 #gallery {
-background-color: var(--primary-100);
+  background-color: var(--primary-100);
 }
 
 .blue {
-    color: var(--principal);
-} 
-
-
+  color: var(--principal);
+}
