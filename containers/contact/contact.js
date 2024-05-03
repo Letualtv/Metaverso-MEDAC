@@ -29,8 +29,9 @@ form.addEventListener('submit',(e)=>{
   const email = document.getElementById('email').value;
   const cp = document.getElementById('cp').value;
   const pregunta = document.getElementById('pregunta').value;
-  const check1 = document.getElementById('check1').value;
-  const check2 = document.getElementById('check2').value;
+  const check1 = document.getElementById('check1').checked;
+  const check2 = document.getElementById('check2').checked;
+
 
 ref.push({
   nombre:nombre,

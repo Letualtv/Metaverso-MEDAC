@@ -11,10 +11,10 @@
 
     <!-- ENLACE ESTILOS -->
 
-    <link rel="stylesheet" href="containers/navbar/navbar.css">
-    <link rel="stylesheet" href="containers/faq/faq.css">
-    <link rel="stylesheet" href="containers/footer/footer.css">
-    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="../containers/navbar/navbar.css">
+    <link rel="stylesheet" href="../containers/faq/faq.css">
+    <link rel="stylesheet" href="../containers/footer/footer.css">
+    <link rel="stylesheet" href="../app.css">
     <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -31,13 +31,12 @@
 
     <!-- ENLACE COMPONENTES -->
 
-    <?php require('./containers/navbar/navbar.html') ?>
-    <?php require('./containers/faq/faq.html') ?>
-    <?php require('./containers/footer/footer.html') ?>
+    <?php require('../containers/navbar/navbar.html') ?>
+    <?php require('../containers/faq/faq.html') ?>
+    <?php require('../containers/footer/footer.html') ?>
 
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script src="script.js"></script>
 
 </html>

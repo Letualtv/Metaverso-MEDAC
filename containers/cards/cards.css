@@ -13,11 +13,11 @@
 }
 .cards-row {
     color: white;
-    padding: 4em 3em;
+padding-top: 3rem  !important;
+padding-bottom: 3rem  !important;
 }
-.cards-row:not(.col-12){
-    padding: 4em 2em;
-}
+
+
 
 /* Linea separadora */
 .cardsSeparator {
@@ -32,9 +32,9 @@
 }
 
 .cardText {
-    font-size:1.4rem;
+    font-size:1.25rem;
     color: white;
-    font-weight: 600 !important;
+    font-weight: 500 !important;
     padding: 1.5em 0.7em;
 }
 .cardText:not(div){
@@ -42,6 +42,6 @@
 }
 .cardNumber {
     color: #66cbc4;
-    font-size: 3.5rem !important;
-    font-weight: 700;
+   font-size: 3rem;
+    font-weight: 900;
 }
