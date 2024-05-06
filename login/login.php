@@ -30,7 +30,7 @@
             </div>
             <div class=" col-md-5 col-lg-4 col-xs-10 mx-auto my-auto order-1 order-md-2">
                 <div class="text-center my-3 mb-5">
-                    <img src="..\assets\logo-vector\MEDAC_imagotipo_horiz_azul_RGB.svg" class="w-75" alt="Logotipo de MEDAC">
+                    <img src="assets\logo-vector\MEDAC_imagotipo_horiz_azul_RGB.svg" class="w-75" alt="Logotipo de MEDAC">
                 </div>
 
                 <div class="input-group mt-4">
