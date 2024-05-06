@@ -12,25 +12,25 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- ENLACE ESTILOS -->
 
-    <link rel="stylesheet" href="../containers/footer/footer.css">
-    <link rel="stylesheet" href="../containers/navbar/navbar.css">
-    <link rel="stylesheet" href="./login.css">
-    <link rel="stylesheet" href="../app.css">
+    <link rel="stylesheet" href="containers/footer/footer.css">
+    <link rel="stylesheet" href="containers/navbar/navbar.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/app.css">
 
 </head>
 
 <body>
 
-   <?php require('../containers/navbar/navbar.html') ?>
+   <?php require('containers/navbar/navbar.html') ?>
 
     <section class="container-fluid py-3">
         <div class="row">
             <div class="col-md-6 col-xs-10 my-auto order-2 order-md-1">
-                <img src="..\assets\assembly\web\loginPic.svg" class="img-fluid" alt="Imagen login / registro">
+                <img src="assets/assembly/web/loginPic.svg" class="img-fluid" alt="Imagen login / registro">
             </div>
             <div class=" col-md-5 col-lg-4 col-xs-10 mx-auto my-auto order-1 order-md-2">
                 <div class="text-center my-3 mb-5">
-                    <img src="..\assets\logo-vector\MEDAC_imagotipo_horiz_azul_RGB.svg" class="w-75" alt="Logotipo de MEDAC">
+                    <img src="assets/logo-vector/MEDAC_imagotipo_horiz_azul_RGB.svg" class="w-75" alt="Logotipo de MEDAC">
                 </div>
 
                 <div class="input-group mt-4">
@@ -62,7 +62,7 @@
                 </div>
                 <div class="d-flex gap-1 justify-content-center mt-3">
                     <p>¿No tienes una cuenta?</p>
-                    <p><a href="../register\register.php" class="blue text-decoration-underline">Regístrate</a></p>
+                    <p><a href="register.php" class="blue text-decoration-underline">Regístrate</a></p>
                 </div>
 
             </div>
@@ -73,7 +73,7 @@
 
     <!-- ENLACE COMPONENTES -->
 
-    <?php require('../containers/footer/footer.html') ?>
+    <?php require('containers/footer/footer.html') ?>
 
 
 

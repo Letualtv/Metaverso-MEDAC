@@ -11,10 +11,10 @@
 
     <!-- ENLACE ESTILOS -->
 
-    <link rel="stylesheet" href="../containers/navbar/navbar.css">
-    <link rel="stylesheet" href="../containers/faq/faq.css">
-    <link rel="stylesheet" href="../containers/footer/footer.css">
-    <link rel="stylesheet" href="../app.css">
+    <link rel="stylesheet" href="containers/navbar/navbar.css">
+    <link rel="stylesheet" href="containers/faq/faq.css">
+    <link rel="stylesheet" href="containers/footer/footer.css">
+    <link rel="stylesheet" href="css/app.css">
     <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -24,16 +24,14 @@
 />
 </head>
 
-
-
 <body>
 
 
     <!-- ENLACE COMPONENTES -->
 
-    <?php require('../containers/navbar/navbar.html') ?>
-    <?php require('../containers/faq/faq.html') ?>
-    <?php require('../containers/footer/footer.html') ?>
+    <?php require('containers/navbar/navbar.html') ?>
+   <?php require('containers/faq/faq.html') ?>
+    <?php require('containers/footer/footer.html') ?>
 
 
 </body>
