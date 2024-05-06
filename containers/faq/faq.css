@@ -6,13 +6,3 @@
   margin: 3em 6em;
 }
 
-.title-outside {
-  color: black;
-  font-size: larger;
-  position: relative;
-
-  top: -40px;
-  /* width: fit-content; */
-  font-weight: bolder;
-  font-size: 2.1rem;
-}
