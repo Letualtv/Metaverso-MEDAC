@@ -23,7 +23,9 @@
   font-family: "IBM Plex Sans", sans-serif, Calibri, "Trebuchet MS", sans-serif;
 }
 
-
+.blue {
+  color: var(--principal);
+}
 /* Botón desplazamieto */
 .cmn-divfloat {
   position: fixed;
