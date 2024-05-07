@@ -14,6 +14,8 @@
   --secundario: #ffffff;
   --acento: #009389;
   --acento-hover: #33b9b0;
+
+
 }
 
 * {
@@ -21,7 +23,9 @@
   font-family: "IBM Plex Sans", sans-serif, Calibri, "Trebuchet MS", sans-serif;
 }
 
-
+.blue {
+  color: var(--principal);
+}
 /* Botón desplazamieto */
 .cmn-divfloat {
   position: fixed;
