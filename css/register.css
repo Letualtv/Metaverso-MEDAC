@@ -26,3 +26,9 @@
   border: transparent;
   background-color: var(--principal);
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
