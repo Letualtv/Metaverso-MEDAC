@@ -35,65 +35,9 @@
    border-color: transparent;
 }
 
-.title-outside {
-  color: black;
-  font-size: larger;
-  position: relative;
 
   top: -40px;
   /* width: fit-content; */
   font-weight: bolder;
   font-size: 2.1rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* #img1{
-  max-width: 30%;
-}
- #img2{
-  width: 320px;
- }
-.aText {
-  color: grey;
-  /* margin: 10px; 
-}
-
-.image-outside {
-  position: absolute;
-  right: -50px;
-  bottom: -1.3em;
-  border: 2px solid var(--primary-300);
-  margin-bottom: 1rem;
-}
- */
-
-
-
-/* 
-@media(min-width: 800px){ 
-    .image-outside {
-        border: 1px solid red;
-        background-color: black;
-        position: relative;
-        bottom: -130px;
-        right: -100px;
-        max-width: 250px;
-  
-      }  
-  } 
-  */
