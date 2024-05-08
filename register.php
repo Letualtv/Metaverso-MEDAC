@@ -57,7 +57,7 @@
 
                 <div class="d-flex mx-auto">
                     <p>
-                        Captcha
+                       
                     </p>
                 </div>
 
