@@ -24,9 +24,9 @@
   <link rel="stylesheet" href="css/app.css">
 
   <!-- ENLACE FIREBASE -->
-  <script src="https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.11.1/firebase-database.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/10.11.1/firebase-auth.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/10.11.1/firebase-auth.min.js"></script> -->
 
 </head>
 
