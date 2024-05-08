@@ -16,6 +16,11 @@
   <link rel="stylesheet" href="containers/faq/faq.css">
   <link rel="stylesheet" href="containers/footer/footer.css">
   <link rel="stylesheet" href="css/app.css">
+
+  <script src="https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.11.1/firebase-database.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/10.11.1/firebase-auth.min.js"></script>
+
 </head>
 
 <body>
@@ -30,5 +35,6 @@
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
+<script src="js/register.js"></script>
+  <script src="js/login.js"></script>
 </html>

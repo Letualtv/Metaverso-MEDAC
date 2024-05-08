@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="css/register.css">
     <link rel="stylesheet" href="css/app.css">
 
+    <script type="module" src="/js/register.js"></script>
+
 </head>
 
 <body>
@@ -40,7 +42,7 @@
                     <div class="input-group-text text-center" style="width: 2.5em;">
                         <i class="fa-solid fa-key "></i>
                     </div>
-                    <input class="form-control bg-light" type="password" placeholder="Contraseña" />
+                    <input id="passwordreg" class="form-control bg-light" type="password" placeholder="Contraseña" />
                 </div>
                 <div class="input-group mt-3">
                     <div class="input-group-text text-center" style="width: 2.5em;">
@@ -52,7 +54,7 @@
                     <div class="input-group-text text-center" style="width: 2.5em;">
                         <i class="fa-solid fa-envelope "></i>
                     </div>
-                    <input class="form-control bg-light" type="password" placeholder="E-Mail" />
+                    <input id="emailreg" class="form-control bg-light" type="password" placeholder="E-Mail" />
                 </div>
 
                 <div class="d-flex mx-auto">
@@ -62,7 +64,7 @@
                 </div>
 
                 <div class=" d-flex">
-                    <button class="btn text-white mx-auto w-50 mt-4 fw-semibold" style="background-color: var(--principal);">
+                    <button id="registro" class="btn text-white mx-auto w-50 mt-4 fw-semibold" style="background-color: var(--principal);">
                         Registrar
                     </button>
                 </div>
@@ -77,7 +79,6 @@
     <!-- ENLACE COMPONENTES -->
 
     <?php require('containers/footer/footer.html') ?>
-
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
