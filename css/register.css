@@ -27,8 +27,6 @@
   background-color: var(--principal);
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+#registerSection {
+  min-height: 80vh;
 }

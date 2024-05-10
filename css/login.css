@@ -26,3 +26,6 @@
   border: transparent;
   background-color: var(--principal);
 }
+#loginSection {
+  min-height: 80vh;
+}

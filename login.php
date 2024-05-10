@@ -28,7 +28,7 @@
 
    <?php require('containers/navbar/navbar.html') ?>
 
-    <section class="container-fluid py-3">
+    <section class="container-fluid py-5" id="loginSection">
         <div class="row">
             <div class="col-md-6 col-xs-10 my-auto order-2 order-md-1">
                 <img src="assets/assembly/web/loginPic.svg" class="img-fluid" alt="Imagen login / registro">

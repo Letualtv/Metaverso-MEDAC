@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Metaverso MEDAC</title>
-    <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
     <link rel="icon" href="assets\logo-vector\MEDAC_isotipo_azul_RGB.svg" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,7 +16,7 @@
     <link rel="stylesheet" href="css/register.css">
     <link rel="stylesheet" href="css/app.css">
 
-    <script type="module" src="/js/register.js"></script>
+    <script type="module" src="js/register.js"></script>
 
 </head>
 
@@ -25,9 +24,9 @@
 
    <?php require('containers/navbar/navbar.html') ?>
 
-    <section class="container-fluid py-3">
-        <div class="row">
-            <div class=" col-md-4 col-lg-4 col-xs-10 mx-auto my-auto order-1 order-md-2">
+    <section class="container-fluid py-5" id="registerSection">
+        <div class="row ">
+            <div class=" col-10 col-md-8 col-lg-4 col-xs-10 mx-auto">
                 <div class="text-center my-3 mb-5">
                     <img src="assets/logo-vector/MEDAC_imagotipo_horiz_azul_RGB.svg" class="w-75" alt="Logotipo de MEDAC">
                 </div>
