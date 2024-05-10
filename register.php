@@ -31,6 +31,7 @@
                 <div class="text-center my-3 mb-5">
                     <img src="assets/logo-vector/MEDAC_imagotipo_horiz_azul_RGB.svg" class="w-75" alt="Logotipo de MEDAC">
                 </div>
+<<<<<<< HEAD
                 <form action="registerForm.php" method="post">
                     <div class="input-group mt-4">
                         <div class="input-group-text  text-center"style="width: 2.5em;">
@@ -108,6 +109,46 @@
                 </div>
 >>>>>>> parent of 5bede51 (captcha)
 
+=======
+
+                <div class="input-group mt-4">
+                    <div class="input-group-text  text-center"style="width: 2.5em;">
+                        <i class="fa-solid fa-user" ></i>
+                    </div>
+                    <input class="form-control bg-light" type="text" placeholder="Usuario" />
+                </div>
+                <div class="input-group mt-3">
+                    <div class="input-group-text text-center" style="width: 2.5em;">
+                        <i class="fa-solid fa-key "></i>
+                    </div>
+                    <input class="form-control bg-light" type="password" placeholder="Contraseña" />
+                </div>
+                <div class="input-group mt-3">
+                    <div class="input-group-text text-center" style="width: 2.5em;">
+                        <i class="fa-solid fa-lock "></i>
+                    </div>
+                    <input class="form-control bg-light" type="password" placeholder="Repetir contraseña" />
+                </div>
+                <div class="input-group mt-3">
+                    <div class="input-group-text text-center" style="width: 2.5em;">
+                        <i class="fa-solid fa-envelope "></i>
+                    </div>
+                    <input class="form-control bg-light" type="password" placeholder="E-Mail" />
+                </div>
+
+                <div class="d-flex mx-auto">
+                    <p>
+                        Captcha
+                    </p>
+                </div>
+
+                <div class=" d-flex">
+                    <button class="btn text-white mx-auto w-50 mt-4 fw-semibold" style="background-color: var(--principal);">
+                        Registrar
+                    </button>
+                </div>
+
+>>>>>>> parent of 5bede51 (captcha)
 
             </div>
         </div>
