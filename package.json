@@ -2,6 +2,12 @@
   "dependencies": {
     "@splidejs/splide": "^4.1.4",
     "firebase": "^10.11.1"
+  },
+
+
+  "name": "medacverso",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest"
   }
 }
-  
